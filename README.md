@@ -1,1 +1,3 @@
-# This is my README
+SMS Taiwan Official Site
+
+http://bm-sms.com.tw
