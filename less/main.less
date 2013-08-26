@@ -5,6 +5,11 @@
  * SMS Taiwan CO. LTD.
  */
 
+
+// Variables
+// -------------------------------------------------------------
+@main-color: #FF7E02;
+
 // Global
 // -------------------------------------------------------------
 body {
@@ -12,6 +17,9 @@ body {
     background: #fafafa;
 }
 
+a {
+    color: @main-color;
+}
 
 // Layout
 // -------------------------------------------------------------
@@ -45,11 +53,26 @@ section article {
     position: fixed ;
     top: 0;
     
+    //box-shadow: 0 0 8px rgba(0,0,0,0.1);
     border-bottom: 1px solid #eee;
     
     z-index: 100;
 }
 
+h1#sr-logo {
+    margin: 0;
+    height: 42px;
+    margin-top: 5px;
+}
+
+#sr-logo a {
+    width: 117px;
+    height: 42px;
+    display: inline-block;
+    background: url(../images/sms-logo.png) no-repeat left top;
+    
+    text-indent: -9000px;
+}
 
 
 // Menu
@@ -59,6 +82,15 @@ section article {
     height: 55px;
 }
 
+#sr-nav li.uk-active a {
+    color: @main-color;
+    border-bottom: 5px solid @main-color;
+    margin-bottom: -1px;
+    background: transparent;
+    
+    position: relative;
+    height: 56px;
+}
 
 
 // Banner
@@ -110,7 +142,7 @@ section article {
 }
 
 #sr-contact {
-    margin: 0;
+    //margin: 0;
     padding: 0;
     
     position: relative;
