@@ -5,6 +5,8 @@
  * SMS Taiwan CO. LTD.
  */
 
+var debug = true ;
+
 less = {
     env: "development", // or "production"
     async: false,       // load imports async
@@ -19,6 +21,62 @@ less = {
     rootpath: ":/a.com/"// a path to add on to the start of every url
                         //resource
 };
+
+// Scroll Spy
+window.onload = function() {
+    $('[sr-scrollspy]').each(function(i, e){
+        var id = $(e).attr('id');
+        
+        $(e).scrollspy({
+            min: $(e).offset().top,
+            max: $(e).offset().top + 100,
+            onEnter: function(element, position) {
+                var navs    = $('#sr-nav li');
+                var target  = navs.find('a[href=#'+id+']');
+                
+                navs.removeClass('uk-active');
+                target.parent().addClass('uk-active');
+                
+                if (debug) console.log('in: '+id);
+            },
+            onLeave: function(element, position) {
+                if (debug) console.log('out: '+id);
+            }
+        }); 
+    });
+    
+    $('a').smoothScroll();
+    
+};
+
+//$(document).ready(function() {
+//    $('[data-uk-scrollspy]').on({
+//        
+//        'uk.scrollspy.inview': function(event){
+//            var navs    = $('#sr-nav li');
+//            var id      = $(this).attr('id');
+//            var target  = navs.find('a[href=#'+id+']');
+//            
+//            navs.removeClass('uk-active');
+//            target.parent().addClass('uk-active');
+//            
+//            if (debug) console.log('in: '+id);
+//        },
+//    
+//        'uk.scrollspy.outview': function(event){
+//            var id      = $(this).attr('id');
+//            if (debug) console.log('out: '+id);
+//        }
+//    });
+//    
+//    $('#sr-nav li a').click(function(event){
+//        var li = $(this).parent();
+//        var lis = li.parent().find('li');
+//        
+//        lis.removeClass('uk-active');
+//        li.addClass('uk-active');
+//    });
+//});
 
 
 // Google Map

@@ -5,19 +5,16 @@
  * SMS Taiwan CO. LTD.
  */
 
-div {
-    //border: 1px solid #000;
-    //margin: -1px;
-    //box-sizing: border-box;
-}
-
-
-// Layout
+// Global
+// -------------------------------------------------------------
 body {
     padding-top: 55px;
     background: #fafafa;
 }
 
+
+// Layout
+// -------------------------------------------------------------
 .main {
     //max-width: 1000px;
     //margin: 0 auto;
@@ -39,9 +36,11 @@ section article {
 
 
 // Header
+// -------------------------------------------------------------
 #sr-header {
     background: white;
     width: 100%;
+    height:55px;
     
     position: fixed ;
     top: 0;
@@ -53,7 +52,17 @@ section article {
 
 
 
+// Menu
+// -------------------------------------------------------------
+#sr-nav li a {
+    line-height: 55px;
+    height: 55px;
+}
+
+
+
 // Banner
+// -------------------------------------------------------------
 #sr-banner-inner {
     background: url(../images/header.jpg) no-repeat center 0 ;
     background-attachment: fixed;
@@ -86,6 +95,7 @@ section article {
 
 
 // member
+// -------------------------------------------------------------
 .member-info,
 .member-info h3{
     text-transform: uppercase;
@@ -94,6 +104,7 @@ section article {
 
 
 // Contact
+// -------------------------------------------------------------
 #contact-map {
     height: 450px;
 }
@@ -122,6 +133,7 @@ section article {
 
 
 // Footer
+// -------------------------------------------------------------
 #sr-footer {
     padding: 40px 30px;
 }
