@@ -18,6 +18,13 @@
 body {
     padding-top: 55px;
     background: #fafafa;
+    
+    font-family: '微軟正黑體', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:  'Roboto', /*AdobeHeitiStd-Regular,*/ "LiHei Pro", "儷黑Pro", Helvetica, Arial, "Microsoft JhengHei", "微軟正黑體" ;
+    font-weight: 300;
 }
 
 a {
@@ -43,6 +50,16 @@ section article {
     border-top: 1px solid #eee;
     border-bottom: 1px solid #eee;
     background: white;
+}
+
+
+// Typo
+// -------------------------------------------------------------
+header .uk-article-lead {
+    text-transform: uppercase;
+    color: #666;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
 }
 
 
@@ -83,6 +100,14 @@ h1#sr-logo {
 #sr-nav li a {
     line-height: 55px;
     height: 55px;
+    
+    font-family: 'Cuprum', sans-serif;
+    text-transform: uppercase;
+}
+
+#sr-nav li a:hover {
+    color: @main-color;
+    background: transparent;
 }
 
 #sr-nav li.uk-active a {
@@ -113,9 +138,14 @@ h1#sr-logo {
     color: white;
 }
 
-#sr-banner-title-wrap h1,
-#sr-banner-title-wrap h2 {
-    color: white;
+#sr-banner-title-wrap {
+    h1, h2, h3, h4, h5, h6 {
+        color: white;
+    }
+    
+    h2, h3 {
+        text-transform: uppercase;
+    }
 }
 
 #sr-banner-title-wrap h1 {
@@ -130,10 +160,20 @@ h1#sr-logo {
 }
 
 
-
-
-// member
+// About
 // -------------------------------------------------------------
+#sr-about article {
+    font-size: 16px;
+    line-height: 180%;
+}
+
+
+// Members
+// -------------------------------------------------------------
+#members {
+    overflow: hidden;
+}
+
 .member-info,
 .member-info h3{
     text-transform: uppercase;
@@ -142,6 +182,16 @@ h1#sr-logo {
 .member-info {
     position: relative;
 }
+
+
+
+// Features
+// -------------------------------------------------------------
+
+
+
+// Works
+// -------------------------------------------------------------
 
 
 
