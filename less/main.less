@@ -10,6 +10,9 @@
 // -------------------------------------------------------------
 @main-color: #FF7E02;
 
+@logo-img : '../images/sms-logo.png' ;
+@banner-img : '../images/header3.jpg' ;
+
 // Global
 // -------------------------------------------------------------
 body {
@@ -69,7 +72,7 @@ h1#sr-logo {
     width: 117px;
     height: 42px;
     display: inline-block;
-    background: url(../images/sms-logo.png) no-repeat left top;
+    background: url(@logo-img) no-repeat left top;
     
     text-indent: -9000px;
 }
@@ -96,7 +99,7 @@ h1#sr-logo {
 // Banner
 // -------------------------------------------------------------
 #sr-banner-inner {
-    background: url(../images/header.jpg) no-repeat center 0 ;
+    background: url(@banner-img) no-repeat center 0 ;
     background-attachment: fixed;
 }
 
@@ -117,6 +120,9 @@ h1#sr-logo {
 
 #sr-banner-title-wrap h1 {
     font-size: 64px;
+    margin: 60px 0;
+    
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 
 #sr-banner-title-wrap h2 {
