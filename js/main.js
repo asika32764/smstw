@@ -83,11 +83,12 @@ var SMS = ({
                 var id = $(this).attr('href').replace('#', '');
                 
                 $(this).smoothScroll({
-                    preventDefault: false,
+                    preventDefault: true,
                     speed: 800,
                     afterScroll: function(a, b)
                     {
                         SMS.activeNav(id);
+                        window.location.hash = '#'+id;
                     },
                 }); 
             });
@@ -100,7 +101,9 @@ var SMS = ({
     {
         // Skrollr
         jQuery(document).ready(function(){
-            var s = skrollr.init();
+            setTimeout(function(){
+                var s = skrollr.init();
+            }, 1000);
         });
         
     },
