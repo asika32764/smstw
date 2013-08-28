@@ -1,46 +1,6 @@
 <?php
-    // Debug
-    $debug = 1;
-
-
-    // LESS
-    if(1) :
-        require "lessphp/lessc.inc.php";
-        
-        $path = 'less/main.less';
-        $file  = 'css/main.css';
-        
-        if(file_exists($file)) {
-            unlink($file);
-        }
-        
-        $less = new lessc;
-        $less->checkedCompile($path, $file);
-    endif;
-    
-    // Animation
-    $namespace = array(
-        'begin'     => 0,
-        'add'       => 0,
-        'duration'  => 70,
-        'current'   => 1,
-    );
-    
-    $animStart = function(&$namespace)
-    {
-        if(empty($namespace['current'])) $namespace['current'] = 1 ;
-        
-        return $namespace['begin'] + (($namespace['current'] - 1) * $namespace['add']);
-    };
-    
-    $animEnd   = function(&$namespace)
-    {
-        $r = $namespace['begin'] + (($namespace['current'] - 1) * $namespace['add']) + $namespace['duration'];
-        
-        $namespace['current']++;
-        
-        return $r ;
-    };
+    const SMS_SITE = true ;
+    include_once 'init.php';
 ?>
 <!DOCTYPE HTML>
 <html lang="en-US">
