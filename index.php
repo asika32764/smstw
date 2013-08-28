@@ -1,20 +1,22 @@
 <?php
     // Debug
-    $debug = 0;
+    $debug = 1;
 
 
     // LESS
-    require "lessphp/lessc.inc.php";
-    
-    $path = 'less/main.less';
-    $file  = 'css/main.css';
-    
-    if(file_exists($file)) {
-        unlink($file);
-    }
-    
-    $less = new lessc;
-    $less->checkedCompile($path, $file);
+    if(true) :
+        require "lessphp/lessc.inc.php";
+        
+        $path = 'less/main.less';
+        $file  = 'css/main.css';
+        
+        if(file_exists($file)) {
+            unlink($file);
+        }
+        
+        $less = new lessc;
+        $less->checkedCompile($path, $file);
+    endif;
     
     // Animation
     $namespace = array(
@@ -95,9 +97,18 @@
         
         <!--HEADER START-->
         <header id="sr-header">
-            <nav id="sr-nav" class="uk-grid">
+            <nav id="sr-nav" class="uk-">
                 <div class="uk-container uk-container-center">
-                    <div class="ul-navbar">
+                    <button id="mobile-menu-button" class="uk-button uk-visible-small uk-navbar-toggle uk-float-left" data-uk-offcanvas="{target:'#mobile-menu'}"></button>
+                    <div class="ul-navbar uk-visible-small uk-navbar-center">
+                        <h1 id="sr-logo" class="uk-navbar-brand">
+                            <a href="#top">
+                                LOGO
+                            </a>
+                        </h1>
+                    </div>
+                    
+                    <div class="ul-navbar uk-hidden-small">
                         <h1 id="sr-logo" class="uk-navbar-brand">
                             <a href="#top">
                                 LOGO
@@ -112,6 +123,19 @@
                             <li><a href="#recruiting" >Recruiting</a></li>
                             <li><a href="#contact" >Contact Us</a></li>
                         </ul>
+                    </div>
+                </div>
+                
+                <div id="mobile-menu" class="uk-offcanvas">
+                    <div class="uk-offcanvas-bar">
+                        <ul id="sr-nav" class="uk-nav uk-nav-offcanvas uk-nav-parent-icon">
+                            <li class="uk-parent"><a href="#about" data-uk-offcanvas="{target:'#mobile-menu'}">About</a></li>
+                            <li><a href="#features" >Features</a></li>
+                            <li><a href="#works" >Works</a></li>
+                            <li><a href="#members" >Members</a></li>
+                            <li><a href="#recruiting" >Recruiting</a></li>
+                            <li><a href="#contact" >Contact Us</a></li>
+                        </ul>    
                     </div>
                 </div>
             </nav>
