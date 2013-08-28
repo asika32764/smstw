@@ -241,14 +241,14 @@
                         <article class="">
                             <?php
                                 $feature_img = array(
-                                    'begin'     => 500,
+                                    'begin'     => 400,
                                     'add'       => -50,
                                     'duration'  => -130,
                                     'current'   => 1,
                                 );
                                 
                                 $feature_text = array(
-                                    'begin'     => 400,
+                                    'begin'     => 350,
                                     'add'       => -100,
                                     'duration'  => -200,
                                     'current'   => 1,
@@ -504,8 +504,8 @@
                                 <?php
                                     $mambers = array(
                                         'begin'     => 400,
-                                        'add'       => -45,
-                                        'duration'  => -70,
+                                        'add'       => -65,
+                                        'duration'  => -80,
                                         'current'   => 1,
                                     );
                                 ?>
@@ -623,8 +623,8 @@
                                 <?php
                                     $mambers = array(
                                         'begin'     => 325,
-                                        'add'       => -45,
-                                        'duration'  => -70,
+                                        'add'       => -65,
+                                        'duration'  => -80,
                                         'current'   => 1,
                                     );
                                 ?>
@@ -933,7 +933,7 @@
                     <div id="sr-contact-body" class="uk-width-large-2-3"
                         data-anchor-target="#contact"
                         data-750-top-top="right: -700px;"
-                        data-300-top-top="right[ease]: 0px;"
+                        data-100-top-top="right[ease]: 0px;"
                     >
                         <header class="uk-text-left">
                             <h1 class="uk-heading-large">
