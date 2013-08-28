@@ -126,14 +126,14 @@
                                 <p class="uk-text-center">
                                     <img class="" src="images/about/sms-logo-380.png" alt="SMS" style="margin: 0 30px;"
                                         width="300" height="180"
-                                        data-0="left:-300px;opacity:0;" data-400="left:0px; opacity:1;"
+                                        data-100="left:-300px;opacity:0;" data-500="left:0px; opacity:1;"
                                     />
                                     
-                                    <img class="uk-thumbnail" src="http://placehold.it/300x180" alt="iHealth" style="margin: 0 30px;"
-                                        data-0="right:-300px;opacity:0;" data-400="right:0px; opacity:1;"
+                                    <img class="" src="images/about/ihealth-logo-300.png" alt="iHealth" style="margin: 0 30px;"
+                                        data-100="right:-300px;opacity:0;" data-500="right:0px; opacity:1;"
                                     />
                                 </p>
-                                <div class="uk-grid">
+                                <div class="uk-grid uk-text-justify" data-500="opacity:0;" data-600="opacity:1;">
                                     <div class="uk-width-large-1-2">
                                         <p>
                                             It has survived not only five centuries, but also the leap into
@@ -163,13 +163,15 @@
                                         </p>
                                     </div>
                                 </div>
-                                
-                                <h2 class="uk-text-center">SMS Story: What is Ageing Society (高齡化社會)</h2>
-                                <p  class="uk-text-center">
-                                    About our value, action and service. / 了解我們的價值，行動與服務。
-                                </p>
-                                <div id="sr-about-ppt">
-                                    <script async class="speakerdeck-embed" data-id="77019440f10101301781068b5f277cba" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+                                <hr />
+                                <div data-900="opacity:0;" data-1000="opacity:1;">
+                                    <h2 class="uk-text-center">SMS Story: What is Ageing Society (高齡化社會)</h2>
+                                    <p  class="uk-text-center">
+                                        About our value, action and service. / 了解我們的價值，行動與服務。
+                                    </p>
+                                    <div id="sr-about-ppt">
+                                        <script async class="speakerdeck-embed" data-id="77019440f10101301781068b5f277cba" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+                                    </div>  
                                 </div>
                             </div>
                         </article>  
@@ -557,7 +559,7 @@
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="#" class="uk-overlay" target="_blank">
-                                            <img src="http://placehold.it/250x250" alt="avatar" class="member-avatar" />
+                                            <img src="images/mambers/wayne-avatar.png" alt="avatar" class="member-avatar" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
@@ -838,7 +840,11 @@
             <!--CONTACT BOX-->
             <div id="sr-contact" class="uk-container uk-container-center sr-container">
                 <div id="sr-contact-grid" class="uk-grid">
-                    <div id="sr-contact-body" class="uk-width-large-2-3">
+                    <div id="sr-contact-body" class="uk-width-large-2-3"
+                        data-anchor-target="#contact"
+                        data-750-top-top="right: -700px;"
+                        data-300-top-top="right[ease]: 0px;"
+                    >
                         <header class="uk-text-left">
                             <h1 class="uk-heading-large">
                                 Contact us

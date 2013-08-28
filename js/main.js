@@ -84,7 +84,7 @@ var SMS = ({
                 
                 $(this).smoothScroll({
                     preventDefault: true,
-                    speed: 1000,
+                    speed: 2500,
                     afterScroll: function(a, b)
                     {
                         SMS.activeNav(id);
