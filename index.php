@@ -44,7 +44,12 @@
             service@bm-sms.com.tw
         -->
         <meta charset="UTF-8">
-        <title>SMS Taiwan. Join us, we are hiring!</title>
+        <meta name="keywords"       content="知恩思資訊股份有限公司, SMS台灣分部, 知恩思" />
+        <meta name="description"    content="我們是知恩思資訊股份有限公司，日商 SMS 在台灣的分公司，致力於為高齡化社會中的3個領域 醫療・長照・銀髮族(active senior) 和3種服務對象 企業・從業者・消費者 提供所需的信息服務與平台，以此為社會長期持續創造價值。" />
+        <meta name="generator"      content="The Time Machine" />
+        
+        <title>SMS Taiwan. Come join us, we are hiring!</title>
+        
         
         <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
         
@@ -64,6 +69,13 @@
         <script src="js/uikit.min.js"></script>
         <script src="js/gmap3.min.js"></script>
         <script src="js/main.js"></script>
+        
+        <meta property="og:image" content="http://bm-sms.com.tw/images/sms-logo-white.jpg"/>
+        <meta property="og:url" content="http://bm-sms.com.tw"/>
+        <meta property="og:title" content="SMS Taiwan. Come join us, we are hiring!"/>
+        <meta property="og:site_name" content="SMS Taiwan"/>
+        <meta property="og:description" content="我們是知恩思資訊股份有限公司，日商 SMS 在台灣的分公司，致力於為高齡化社會中的3個領域 醫療・長照・銀髮族(active senior) 和3種服務對象 企業・從業者・消費者 提供所需的信息服務與平台，以此為社會長期持續創造價值。"/>
+        <meta property="og:type" content="website"/>
     </head>
     <body id="top"  sr-scrollspy="{repeat: true}">
         
