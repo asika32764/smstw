@@ -228,8 +228,8 @@
                                     <div
                                         class="feature-text"
                                         data-anchor-target="#features"
-                                        data-<?=$animStart($feature_text);?>-top-top="opacity: 0;"
-                                        data-<?=$animEnd($feature_text);?>-top-top="opacity: 1;"
+                                        data-<?=$animStart($feature_text);?>-top-top="opacity: 0; top: 100px;"
+                                        data-<?=$animEnd($feature_text);?>-top-top="opacity: 1; top: 0px;"
                                     >
                                         <h3 class="uk-text-center">
                                             專業技術
@@ -254,8 +254,8 @@
                                     <div
                                         class="feature-text"
                                         data-anchor-target="#features"
-                                        data-<?=$animStart($feature_text);?>-top-top="opacity: 0;"
-                                        data-<?=$animEnd($feature_text);?>-top-top="opacity: 1;"
+                                        data-<?=$animStart($feature_text);?>-top-top="opacity: 0; top: 100px;"
+                                        data-<?=$animEnd($feature_text);?>-top-top="opacity: 1; top: 0px;"
                                     >
                                         <h3 class="uk-text-center">
                                             開源精神
@@ -280,8 +280,8 @@
                                     <div
                                         class="feature-text"
                                         data-anchor-target="#features"
-                                        data-<?=$animStart($feature_text);?>-top-top="opacity: 0;"
-                                        data-<?=$animEnd($feature_text);?>-top-top="opacity: 1;"
+                                        data-<?=$animStart($feature_text);?>-top-top="opacity: 0; top: 100px;"
+                                        data-<?=$animEnd($feature_text);?>-top-top="opacity: 1; top: 0px;"
                                     >
                                         <h3 class="uk-text-center">
                                             國際視野
@@ -377,27 +377,78 @@
                                 Our Service and Products.
                             </h2>
                         </header>
-                        <article class="uk-width-large-2-3 uk-container-center">
+                        <article class="uk-width-large-5-6 uk-container-center">
+                            <?php
+                                $works = array(
+                                    'begin'     => 500,
+                                    'add'       => 40,
+                                    'duration'  => -500,
+                                    'current'   => 1,
+                                );
+                            ?>
+                            
                             <div class="uk-grid">
-                                <div class="works-thumb uk-width-large-1-3">
-                                    <img src="http://placehold.it/300x300" alt="works">
+                                <div
+                                    class="works-thumb uk-width-large-1-3"
+                                    data-anchor-target="#works"
+                                    data-<?=$animStart($works);?>-top-top="top: -70px; left: -90px;"
+                                    data-<?=$animEnd($works);?>-top-top="top: 0; left: 0;"
+                                >
+                                    <a href="#">
+                                        <img src="images/works/ihealth.png" alt="works">
+                                    </a>
                                 </div>
-                                <div class="works-thumb uk-width-large-1-3">
-                                    <img src="http://placehold.it/300x300" alt="works">
+                                <div
+                                    class="works-thumb uk-width-large-1-3"
+                                    data-anchor-target="#works"
+                                    data-<?=$animStart($works);?>-top-top="top: -30px;"
+                                    data-<?=$animEnd($works);?>-top-top="top: 0;"
+                                >
+                                    <a href="#">
+                                        <img src="images/works/cocoyaku.png" alt="works">
+                                    </a>
                                 </div>
-                                <div class="works-thumb uk-width-large-1-3">
-                                    <img src="http://placehold.it/300x300" alt="works">
+                                <div
+                                    class="works-thumb uk-width-large-1-3"
+                                    data-anchor-target="#works"
+                                    data-<?=$animStart($works);?>-top-top="top: -50px; right: -70px;"
+                                    data-<?=$animEnd($works);?>-top-top="top: 0; right: 0;"
+                                >
+                                    <a href="#">
+                                        <img src="images/works/pharmjob.png" alt="works">
+                                    </a>
                                 </div>
                             </div>
                             <div class="uk-grid">
-                                <div class="works-thumb uk-width-large-1-3">
-                                    <img src="http://placehold.it/300x300" alt="works">
+                                <div
+                                    class="works-thumb uk-width-large-1-3"
+                                    data-anchor-target="#works"
+                                    data-<?=$animStart($works);?>-top-top="bottom: -50px; left: -70px;"
+                                    data-<?=$animEnd($works);?>-top-top="bottom: 0; left: 0;"
+                                >
+                                    <a href="#">
+                                        <img src="images/works/bamahome.png" alt="works">
+                                    </a>
                                 </div>
-                                <div class="works-thumb uk-width-large-1-3">
-                                    <img src="http://placehold.it/300x300" alt="works">
+                                <div
+                                    class="works-thumb uk-width-large-1-3"
+                                    data-anchor-target="#works"
+                                    data-<?=$animStart($works);?>-top-top="bottom: -90px;"
+                                    data-<?=$animEnd($works);?>-top-top="bottom: 0;"
+                                >
+                                    <a href="#">
+                                        <img src="images/works/ddi.png" alt="works">
+                                    </a>
                                 </div>
-                                <div class="works-thumb uk-width-large-1-3">
-                                    <img src="http://placehold.it/300x300" alt="works">
+                                <div
+                                    class="works-thumb uk-width-large-1-3"
+                                    data-anchor-target="#works"
+                                    data-<?=$animStart($works);?>-top-top="bottom: -40px; right: -90px;"
+                                    data-<?=$animEnd($works);?>-top-top="bottom: 0; right: 0;"
+                                >
+                                    <a href="#">
+                                        <img src="images/works/asikart.png" alt="works">
+                                    </a>
                                 </div>
                             </div>
                         </article>  
@@ -420,7 +471,7 @@
                                 Members
                             </h1>
                             <h2 class="uk-article-lead">
-                                Some slogen here.
+                                A small team trying to do something big.
                             </h2>
                         </header>
                         <article>
@@ -428,7 +479,7 @@
                                 <?php
                                     $mambers = array(
                                         'begin'     => 400,
-                                        'add'       => -50,
+                                        'add'       => -35,
                                         'duration'  => -70,
                                         'current'   => 1,
                                     );
@@ -442,7 +493,7 @@
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="http://fb.me/eziospray" class="uk-overlay" target="_blank">
-                                            <img src="http://placehold.it/250x250" alt="avatar" class="member-avatar" />
+                                            <img src="images/mambers/johnny-avatar.jpg" alt="avatar" class="member-avatar" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
@@ -464,7 +515,7 @@
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="#" class="uk-overlay" target="_blank">
-                                            <img src="http://placehold.it/250x250" alt="avatar" class="member-avatar" />
+                                            <img src="images/mambers/infinity-avatar.jpg" alt="avatar" class="member-avatar" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
@@ -486,7 +537,7 @@
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="http://fb.me/eziospray" class="uk-overlay" target="_blank">
-                                            <img src="http://placehold.it/250x250" alt="avatar" class="member-avatar" />
+                                            <img src="images/mambers/asika-avatar.jpg" alt="avatar" class="member-avatar" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
@@ -520,6 +571,31 @@
                                     </figcaption>
                                 </div>
                                 
+                                <!--AVATAR [Lucia]-->
+                                <div class="member-info uk-width-large-1-5"
+                                    data-anchor-target="#members"
+                                    data-<?=$animStart($mambers);?>-top-top="opacity:0; right: -300px;"
+                                    data-<?=$animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
+                                >
+                                    <figure class="uk-margin-bottom">
+                                        <a href="http://fb.me/eziospray" class="uk-overlay" target="_blank">
+                                            <img src="images/mambers/lucia-avatar.jpg" alt="avatar" class="member-avatar" />
+                                            <div class="uk-overlay-area"></div>
+                                        </a>
+                                    </figure>
+                                    <figcaption class="">
+                                        <h3>
+                                            Lucia Yu
+                                        </h3>
+                                        <small>
+                                            Special Assistant
+                                        </small>
+                                    </figcaption>
+                                </div>
+                            </div>
+                            
+                            <div class="uk-grid">
+                                
                                 <!--AVATAR []-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
@@ -528,16 +604,104 @@
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
-                                            <img src="http://placehold.it/250x250" alt="avatar" class="member-avatar" />
+                                            <img src="images/mambers/you.gif" alt="avatar" class="member-avatar" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
                                     <figcaption class="">
                                         <h3>
-                                            You
+                                            Join us!
                                         </h3>
                                         <small>
-                                            Join us now!
+                                            UI / UX Designer
+                                        </small>
+                                    </figcaption>
+                                </div>
+                                
+                                <!--AVATAR []-->
+                                <div class="member-info uk-width-large-1-5"
+                                    data-anchor-target="#members"
+                                    data-<?=$animStart($mambers);?>-top-top="opacity:0; right: -300px;"
+                                    data-<?=$animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
+                                >
+                                    <figure class="uk-margin-bottom">
+                                        <a href="#contact" class="uk-overlay" target="_blank">
+                                            <img src="images/mambers/you.gif" alt="avatar" class="member-avatar" />
+                                            <div class="uk-overlay-area"></div>
+                                        </a>
+                                    </figure>
+                                    <figcaption class="">
+                                        <h3>
+                                            Join us!
+                                        </h3>
+                                        <small>
+                                            Software Engineer
+                                        </small>
+                                    </figcaption>
+                                </div>
+                                
+                                <!--AVATAR []-->
+                                <div class="member-info uk-width-large-1-5"
+                                    data-anchor-target="#members"
+                                    data-<?=$animStart($mambers);?>-top-top="opacity:0; right: -300px;"
+                                    data-<?=$animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
+                                >
+                                    <figure class="uk-margin-bottom">
+                                        <a href="#contact" class="uk-overlay" target="_blank">
+                                            <img src="images/mambers/you.gif" alt="avatar" class="member-avatar" />
+                                            <div class="uk-overlay-area"></div>
+                                        </a>
+                                    </figure>
+                                    <figcaption class="">
+                                        <h3>
+                                            Join us!
+                                        </h3>
+                                        <small>
+                                            Software Engineer
+                                        </small>
+                                    </figcaption>
+                                </div>
+                                
+                                <!--AVATAR []-->
+                                <div class="member-info uk-width-large-1-5"
+                                    data-anchor-target="#members"
+                                    data-<?=$animStart($mambers);?>-top-top="opacity:0; right: -300px;"
+                                    data-<?=$animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
+                                >
+                                    <figure class="uk-margin-bottom">
+                                        <a href="#contact" class="uk-overlay" target="_blank">
+                                            <img src="images/mambers/you.gif" alt="avatar" class="member-avatar" />
+                                            <div class="uk-overlay-area"></div>
+                                        </a>
+                                    </figure>
+                                    <figcaption class="">
+                                        <h3>
+                                            Join us!
+                                        </h3>
+                                        <small>
+                                            Product Manager
+                                        </small>
+                                    </figcaption>
+                                </div>
+                                
+                                <!--AVATAR []-->
+                                <div class="member-info uk-width-large-1-5"
+                                    data-anchor-target="#members"
+                                    data-<?=$animStart($mambers);?>-top-top="opacity:0; right: -300px;"
+                                    data-<?=$animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
+                                >
+                                    <figure class="uk-margin-bottom">
+                                        <a href="#contact" class="uk-overlay" target="_blank">
+                                            <img src="images/mambers/you.gif" alt="avatar" class="member-avatar" />
+                                            <div class="uk-overlay-area"></div>
+                                        </a>
+                                    </figure>
+                                    <figcaption class="">
+                                        <h3>
+                                            Join us!
+                                        </h3>
+                                        <small>
+                                            Software Engineer
                                         </small>
                                     </figcaption>
                                 </div>
