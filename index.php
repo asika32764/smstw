@@ -1,10 +1,10 @@
 <?php
     // Debug
-    $debug = 1;
+    $debug = 0;
 
 
     // LESS
-    if(true) :
+    if(0) :
         require "lessphp/lessc.inc.php";
         
         $path = 'less/main.less';
@@ -49,18 +49,23 @@
             別看了，快加入我們吧～～～！！！
             service@bm-sms.com.tw
         -->
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2.0">
-        
         <meta charset="UTF-8">
-        <meta name="keywords"       content="知恩思資訊股份有限公司, SMS台灣分部, 知恩思" />
-        <meta name="description"    content="我們是知恩思資訊股份有限公司，日商 SMS 在台灣的分公司，致力於為高齡化社會中的3個領域 醫療・長照・銀髮族(active senior) 和3種服務對象 企業・從業者・消費者 提供所需的信息服務與平台，以此為社會長期持續創造價值。" />
-        <meta name="generator"      content="The Time Machine" />
-        <meta property="og:image"   content="http://bm-sms.com.tw/images/sms-logo-white.jpg"/>
-        <meta property="og:url"     content="http://bm-sms.com.tw"/>
-        <meta property="og:title"   content="SMS Taiwan. Come join us, we are hiring!"/>
-        <meta property="og:site_name" content="SMS Taiwan"/>
-        <meta property="og:description" content="我們是知恩思資訊股份有限公司，日商 SMS 在台灣的分公司，致力於為高齡化社會中的3個領域 醫療・長照・銀髮族(active senior) 和3種服務對象 企業・從業者・消費者 提供所需的信息服務與平台，以此為社會長期持續創造價值。"/>
-        <meta property="og:type"    content="website"/>
+        <meta name="viewport"           content="width=device-width, initial-scale=1, maximum-scale=2.0">
+        <meta name="keywords"           content="知恩思資訊股份有限公司, SMS台灣分部, 知恩思" />
+        <meta name="generator"          content="The Time Machine" />
+        <meta name="description"        content="我們是知恩思資訊股份有限公司，日商 SMS 在台灣的分公司，致力於為高齡化社會中的3個領域
+                                                 醫療・長照・銀髮族(active senior) 和3種服務對象 企業・從業者・消費者
+                                                 提供所需的信息服務與平台，以此為社會長期持續創造價值。" />
+        
+        <meta property="og:image"       content="http://bm-sms.com.tw/images/sms-logo-white.jpg"/>
+        <meta property="og:url"         content="http://bm-sms.com.tw"/>
+        <meta property="og:title"       content="SMS Taiwan. Come join us, we are hiring!"/>
+        <meta property="og:site_name"   content="SMS Taiwan"/>
+        <meta property="og:type"        content="website"/>
+        <meta property="og:description" content="我們是知恩思資訊股份有限公司，日商 SMS 在台灣的分公司，致力於為高齡化社會中的3個領域
+                                                 醫療・長照・銀髮族(active senior) 和3種服務對象 企業・從業者・消費者
+                                                 提供所需的信息服務與平台，以此為社會長期持續創造價值。"/>
+        
         <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
         
         <title>SMS Taiwan. Come join us, we are hiring!</title>
@@ -385,35 +390,35 @@
                                         </p>
                                     </div>
                                     
-                                    <!--PHP-->
+                                    <!--MYSQL-->
                                     <div class="uk-width-large-1-6" data-1150="opacity:0;" data-1350="opacity:1;">
                                         <p class="uk-text-center">
                                             <img src="images/tech/mysql.png" alt="php"/>
                                         </p>
                                     </div>
                                     
-                                    <!--PHP-->
+                                    <!--AMAZON-->
                                     <div class="uk-width-large-1-6" data-1150="opacity:0;" data-1350="opacity:1;">
                                         <p class="uk-text-center">
                                             <img src="images/tech/amazon.png" alt="php"/>
                                         </p>
                                     </div>
                                     
-                                    <!--PHP-->
+                                    <!--AZURE-->
                                     <div class="uk-width-large-1-6" data-1150="opacity:0;" data-1350="opacity:1;">
                                         <p class="uk-text-center">
                                             <img src="images/tech/azure.png" alt="php"/>
                                         </p>
                                     </div>
                                     
-                                    <!--PHP-->
+                                    <!--SYMFONY-->
                                     <div class="uk-width-large-1-6" data-1150="opacity:0;" data-1350="opacity:1;">
                                         <p class="uk-text-center">
                                             <img src="images/tech/symfony.png" alt="php"/>
                                         </p>
                                     </div>
                                     
-                                    <!--PHP-->
+                                    <!--MOOTOOLS-->
                                     <div class="uk-width-large-1-6" data-1150="opacity:0;" data-1350="opacity:1;">
                                         <p class="uk-text-center">
                                             <img src="images/tech/mootools.png" alt="php"/>
