@@ -33,6 +33,8 @@
         <meta charset="UTF-8">
         <title>SMS Taiwan. Join us, we are hiring!</title>
         
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+        
         <link href='http://fonts.googleapis.com/css?family=Cuprum:400' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
@@ -896,7 +898,25 @@
                     </div>
                     
                     <div class="uk-width-large-3-5 uk-text-right">
-                            SMS Japan | SMS Asia
+                            <a href="http://bm-sms.co.jp/" target="_blank">
+                                Japan
+                            </a>
+                            |
+                            <a href="http://cn.bm-sms.asia/" target="_blank">
+                                China
+                            </a>
+                            |
+                            <a href="http://kr.bm-sms.asia/" target="_blank">
+                                Koera
+                            </a>
+                            |
+                            <a href="http://id.bm-sms.asia/" target="_blank">
+                                Indonesia
+                            </a>
+                            |
+                            <a href="http://my.bm-sms.asia/" target="_blank">
+                                Malaysia
+                            </a>
                     </div>
                 </div>
                 

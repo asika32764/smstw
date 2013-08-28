@@ -205,3 +205,9 @@ jQuery(window).ready(function(){
     });
 });
 
+jQuery(window).ready(function(){
+    setTimeout(function(){
+        $('body').css('height', 'auto');
+    }, 2000);
+});
+
