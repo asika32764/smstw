@@ -645,7 +645,7 @@
                                             Join us!
                                         </h3>
                                         <small>
-                                            UI / UX Designer
+                                            Front-End Engineer
                                         </small>
                                     </figcaption>
                                 </div>
@@ -667,7 +667,7 @@
                                             Join us!
                                         </h3>
                                         <small>
-                                            Software Engineer
+                                            Software Test Engineer
                                         </small>
                                     </figcaption>
                                 </div>
@@ -689,7 +689,7 @@
                                             Join us!
                                         </h3>
                                         <small>
-                                            Software Engineer
+                                            Database & Software Engineer
                                         </small>
                                     </figcaption>
                                 </div>
@@ -733,7 +733,7 @@
                                             Join us!
                                         </h3>
                                         <small>
-                                            Software Engineer
+                                            UI / UX Designer
                                         </small>
                                     </figcaption>
                                 </div>
@@ -760,7 +760,7 @@
                                 Recruiting
                             </h1>
                             <h2 class="uk-article-lead">
-                                Some slogen here.
+                                We need you.
                             </h2>
                         </header>
                         <section id="jobs">
@@ -768,19 +768,11 @@
                                 <div class="uk-width-large-1-2">
                                     <header>
                                         <h2>
-                                            PHP Engineer
+                                            PHP Developer
                                         </h2>   
                                     </header>
                                     
                                     <article>
-                                        <p class="uk-text-justify">
-                                            It has survived not only five centuries, but also the leap into
-                                            electronic typesetting, remaining essentially unchanged. It was popularised
-                                            in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                                            and more recently with desktop publishing software like Aldus PageMaker
-                                            including versions of Lorem Ipsum.
-                                        </p>
-                                        
                                         <h3>工作能力需求</h3>
                                         <ul>
                                             <li>一年以上前端工程 (HTML, CSS, JS) 開發經驗</li>
@@ -814,15 +806,7 @@
                                         </h2>   
                                     </header>
                                     
-                                    <article>
-                                        <p class="uk-text-justify">
-                                            It has survived not only five centuries, but also the leap into
-                                            electronic typesetting, remaining essentially unchanged. It was popularised
-                                            in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                                            and more recently with desktop publishing software like Aldus PageMaker
-                                            including versions of Lorem Ipsum.
-                                        </p>
-                                        
+                                    <article>                                        
                                         <h3>工作能力需求</h3>
                                         <ul>
                                             <li>一年以上前端工程 (HTML, CSS, JS) 開發經驗</li>
