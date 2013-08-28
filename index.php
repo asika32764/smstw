@@ -768,17 +768,16 @@
                                 <div class="uk-width-large-1-2">
                                     <header>
                                         <h2>
-                                            PHP Developer
+                                            PHP Developer / PHP 後端工程師
                                         </h2>   
                                     </header>
                                     
                                     <article>
                                         <h3>工作能力需求</h3>
                                         <ul>
-                                            <li>一年以上前端工程 (HTML, CSS, JS) 開發經驗</li>
-                                            <li>熟悉 HTML, CSS, Javascript, JS Framework 等前端開發技術</li>
-                                            <li>對 Javascript 物件導向設計能夠掌握</li>
-                                            <li>對Web系統，UI 介面有基本的美感</li>
+                                            <li>一年以上 PHP 網路系統開發經驗</li>
+                                            <li>熟悉 PHP, MySQL, Ajax 與 HTML 等技術</li>
+                                            <li>瞭解基本 Linux 指令</li>
                                             <li>擅於與團隊溝通，相互瞭解開發狀況</li>
                                             <li>邏輯性強，對新技術研究有熱情</li>
                                         </ul>
@@ -786,15 +785,16 @@
                                         <h3>加分技能</h3>
                                         <ul>
                                             <li>懂版本控制 Git</li>
-                                            <li>瞭解網頁執行效能調校</li>
-                                            <li>懂後端技術 PHP, LAMP Server 等</li>
-                                            <li>曾使用過前端框架如 Bootstrap, Pure, UIKit 等</li>
-                                            <li>曾使用過模版引擎如 Smarty, Twig 等等</li>
-                                            <li>曾獨立製作過CMS版型（WP, Drupal, Joomla 等）</li>
+                                            <li>瞭解 PHP 效能調校</li>
+                                            <li>懂前端技術 HTML5, CSS3 等</li>
                                             <li>曾參與 Open source 專案</li>
-                                            <li>曾使用過 jQuery 以外的 JS 框架，如 AngularJS, Mootools, Prototype 等</li>
+                                            <li>擅長vps主機或雲端主機架設</li>
+                                            <li>曾使用過 MVC 開發框架</li>
+                                            <li>曾使用過 jQuery 以外的 JS 框架</li>
                                             <li>熟悉原生 Javascript 語言特性</li>
-                                            <li>熟悉 HTML5 動畫特效</li>
+                                            <li>有過大流量網站維護經驗</li>
+                                            <li>具備 Unit Test 單元測試經驗</li>
+                                            <li>有 API 系統設計經驗</li>
                                             <li>具有英文或日文流暢溝通能力</li>
                                         </ul>
                                     </article>
@@ -802,7 +802,7 @@
                                 <div class="uk-width-large-1-2">
                                     <header>
                                         <h2>
-                                            PHP Engineer
+                                            Front-End Engineer / 前端工程師
                                         </h2>   
                                     </header>
                                     
@@ -829,6 +829,80 @@
                                             <li>曾使用過 jQuery 以外的 JS 框架，如 AngularJS, Mootools, Prototype 等</li>
                                             <li>熟悉原生 Javascript 語言特性</li>
                                             <li>熟悉 HTML5 動畫特效</li>
+                                            <li>具有英文或日文流暢溝通能力</li>
+                                        </ul>
+                                    </article>
+                                </div>
+                            </div>
+                            
+                            <div class="uk-grid">
+                                <div class="uk-width-large-1-2">
+                                    <header>
+                                        <h2>
+                                            PHP Test Engineer / PHP 測試工程師
+                                        </h2>   
+                                    </header>
+                                    
+                                    <article>
+                                        <h3>工作能力需求</h3>
+                                        <ul>
+                                            <li>二年以上 PHP 網路系統開發經驗</li>
+                                            <li>熟悉 PHP, MySQL, Ajax 與 HTML 等技術</li>
+                                            <li>熟悉 Linux 指令</li>
+                                            <li>熟悉 PHPUnit, PHPCS, Travis-CI 等等測試工具與版本佈建工具</li>
+                                            <li>擅於與團隊溝通，相互瞭解開發狀況</li>
+                                            <li>邏輯性強，對新技術研究有熱情</li>
+                                            <li>懂版本控制 Git</li>
+                                            <li>曾使用過 MVC 開發框架</li>
+                                        </ul>
+                                        
+                                        <h3>加分技能</h3>
+                                        <ul>
+                                            <li>瞭解 PHP 效能調校</li>
+                                            <li>懂前端技術 HTML5, CSS3 等</li>
+                                            <li>曾參與 Open source 專案</li>
+                                            <li>擅長vps主機或雲端主機架設</li>
+                                            <li>曾使用過 jQuery 以外的 JS 框架</li>
+                                            <li>熟悉原生 Javascript 語言特性</li>
+                                            <li>有過大流量網站維護經驗</li>
+                                            <li>有 API 系統設計經驗</li>
+                                            <li>具有英文或日文流暢溝通能力</li>
+                                        </ul>
+                                    </article>
+                                </div>
+                                <div class="uk-width-large-1-2">
+                                    <header>
+                                        <h2>
+                                            SQL & Software Engineer / 資料庫與軟體工程師
+                                        </h2>   
+                                    </header>
+                                    
+                                    <article>                                        
+                                        <h3>工作能力需求</h3>
+                                        <ul>
+                                            <li>二年以上 PHP 網路系統開發經驗</li>
+                                            <li>熟悉 PHP, MySQL, Ajax 與 HTML 等技術</li>
+                                            <li>熟悉 Linux 指令</li>
+                                            <li>熟悉 MySQL 或各類 SQL 系統語法與特色，以及效能調校</li>
+                                            <li>曾使用過 SQL Debug、Migrations 等工具</li>
+                                            <li>曾使用過 PHP 的 ORM 或 ActiveRecord 等系統</li>
+                                            <li>懂版本控制 Git</li>
+                                            <li>擅於與團隊溝通，相互瞭解開發狀況</li>
+                                            <li>邏輯性強，對新技術研究有熱情</li>
+                                        </ul>
+                                        
+                                        <h3>加分技能</h3>
+                                        <ul>
+                                            <li>瞭解 PHP 效能調校</li>
+                                            <li>懂前端技術 HTML5, CSS3 等</li>
+                                            <li>曾參與 Open source 專案</li>
+                                            <li>擅長vps主機或雲端主機架設</li>
+                                            <li>曾使用過 MVC 開發框架</li>
+                                            <li>曾使用過 jQuery 以外的 JS 框架</li>
+                                            <li>熟悉原生 Javascript 語言特性</li>
+                                            <li>有過大流量網站維護經驗</li>
+                                            <li>具備 Unit Test 單元測試經驗</li>
+                                            <li>有 API 系統設計經驗</li>
                                             <li>具有英文或日文流暢溝通能力</li>
                                         </ul>
                                     </article>
