@@ -1,10 +1,10 @@
 <?php
     // Debug
-    $debug = 0;
+    $debug = 1;
 
 
     // LESS
-    if(0) :
+    if(1) :
         require "lessphp/lessc.inc.php";
         
         $path = 'less/main.less';
@@ -156,14 +156,14 @@
                     <div id="sr-banner-title-wrap" class="uk-width-large-5-6 uk-container-center uk-vertical-align uk-text-center">
                         
                         <div class="uk-vertical-align-middle">
-                            <h1 class="sr-banner-title">
+                            <h1 class="sr-banner-title" data-500-end="bottom: 2500px;" data-0-start="bottom: 0px;">
                                 We are Hiring, Come Join Us!
                             </h1>
-                            <h2>
+                            <h2 data-500-end="bottom: 1700px;" data-0-start="bottom: 0px;">
                                 Senior Marketing System in Taiwan
                                 <!--知恩思資訊-->
                             </h2>
-                            <h3>
+                            <h3 data-500-end="bottom: 1300px;" data-0-start="bottom: 0px;">
                                 Continue to create value contribution to aged society.
                                 <!--Provide suitable information media for aged society -->
                                 <!--提供適合高齡社會的資訊媒體，持續創造價值貢獻於社會。-->

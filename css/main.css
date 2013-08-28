@@ -112,6 +112,7 @@ h1#sr-logo {
 #sr-banner-title-wrap h6 {
   color: white;
   line-height: 120%;
+  position: relative;
 }
 #sr-banner-title-wrap h2,
 #sr-banner-title-wrap h3 {
