@@ -191,6 +191,17 @@ var SMS = ({
     }
 }).init(option);
 
-$(window).scroll(function(){
-    //console.log($(window).scrollTop());
+
+jQuery(window).ready(function(){
+    var ppt = '<script async class="speakerdeck-embed" data-id="77019440f10101301781068b5f277cba" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>';
+    
+    $('#sr-about-ppt img').click(function(event){
+        var self = $(this);
+        var pptinstance = $(ppt);
+        
+        self.parent().append(pptinstance);
+        
+        self.remove();
+    });
 });
+

@@ -164,13 +164,13 @@
                                     </div>
                                 </div>
                                 <hr />
-                                <div data-900="opacity:0;" data-1000="opacity:1;">
+                                <div data-1000="opacity:0;" data-1100="opacity:1;">
                                     <h2 class="uk-text-center">SMS Story: What is Ageing Society (高齡化社會)</h2>
                                     <p  class="uk-text-center">
                                         About our value, action and service. / 了解我們的價值，行動與服務。
                                     </p>
-                                    <div id="sr-about-ppt">
-                                        <script async class="speakerdeck-embed" data-id="77019440f10101301781068b5f277cba" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+                                    <div id="sr-about-ppt" class="ajax-loader">
+                                        <img src="images/about/ppt.png" alt="PPT" width="760" height="490" style="cursor: pointer;" />
                                     </div>  
                                 </div>
                             </div>
@@ -481,7 +481,7 @@
                                 <?php
                                     $mambers = array(
                                         'begin'     => 400,
-                                        'add'       => -35,
+                                        'add'       => -45,
                                         'duration'  => -70,
                                         'current'   => 1,
                                     );
@@ -597,6 +597,15 @@
                             </div>
                             
                             <div class="uk-grid">
+                                <?php
+                                    $mambers = array(
+                                        'begin'     => 325,
+                                        'add'       => -45,
+                                        'duration'  => -70,
+                                        'current'   => 1,
+                                    );
+                                ?>
+                                
                                 
                                 <!--AVATAR []-->
                                 <div class="member-info uk-width-large-1-5"
