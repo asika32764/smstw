@@ -279,7 +279,7 @@
                                 $feature_text = array(
                                     'begin'     => 350,
                                     'add'       => -100,
-                                    'duration'  => -200,
+                                    'duration'  => -150,
                                     'current'   => 1,
                                 );
                                 
@@ -361,7 +361,7 @@
                                             <small>International Vision</small>
                                         </h3>
                                         <p class="uk-text-justify">
-                                            SMS 是跨國公司，而我們將成為日本總公司的大東亞 IT 作戰團隊，不只要負責各個國家系統開發與維護，
+                                            SMS 是跨國公司，而我們將成為日本總公司的大東亞 IT 總部，不只要負責各個國家系統開發與維護，
                                             將來也有機會組成跨語言、跨種族的團隊，一起改變世界，成為亞洲的醫療資訊重鎮。
                                         </p>
                                     </div>
