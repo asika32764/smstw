@@ -1,5 +1,18 @@
 <?php
-
+    // LESS
+    require "lessphp/lessc.inc.php";
+    
+    $path = 'less/main.less';
+    $file  = 'css/main.css';
+    
+    if(file_exists($file)) {
+        unlink($file);
+    }
+    
+    $less = new lessc;
+    $less->checkedCompile($path, $file);
+    
+    
     $namespace = array(
         'begin'     => 0,
         'add'       => 0,
@@ -40,14 +53,14 @@
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
         
         <link rel="stylesheet" href="css/uikit.css" />
-        <link rel="stylesheet/less" href="less/main.less" />
+        <link rel="stylesheet/less" href="css/main.css" />
         
         <script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/1.4.1/less.min.js"></script>
         <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
-        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-        <script src="https://rawgithub.com/sxalexander/jquery-scrollspy/master/jquery-scrollspy.js"></script>
-        <script src="https://rawgithub.com/kswedberg/jquery-smooth-scroll/master/jquery.smooth-scroll.js"></script>
-        <script src="https://rawgithub.com/Prinzhorn/skrollr/master/src/skrollr.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="js/jquery-scrollspy.js"></script>
+        <script src="js/jquery.smooth-scroll.js"></script>
+        <script src="js/skrollr.js"></script>
         <script src="js/uikit.js"></script>
         <script src="js/gmap3.js"></script>
         <script src="js/main.js"></script>
@@ -385,7 +398,7 @@
                             <?php
                                 $works = array(
                                     'begin'     => 500,
-                                    'add'       => 40,
+                                    'add'       => 0,
                                     'duration'  => -500,
                                     'current'   => 1,
                                 );
@@ -398,7 +411,7 @@
                                     data-<?=$animStart($works);?>-top-top="top: -70px; left: -90px;"
                                     data-<?=$animEnd($works);?>-top-top="top: 0; left: 0;"
                                 >
-                                    <a href="#">
+                                    <a href="http://www.ihealth.com.tw" target="_blank">
                                         <img src="images/works/ihealth.png" alt="works">
                                     </a>
                                 </div>
@@ -408,7 +421,7 @@
                                     data-<?=$animStart($works);?>-top-top="top: -30px;"
                                     data-<?=$animEnd($works);?>-top-top="top: 0;"
                                 >
-                                    <a href="#">
+                                    <a href="http://www.cocoyaku.com.tw/" target="_blank">
                                         <img src="images/works/cocoyaku.png" alt="works">
                                     </a>
                                 </div>
@@ -418,7 +431,7 @@
                                     data-<?=$animStart($works);?>-top-top="top: -50px; right: -70px;"
                                     data-<?=$animEnd($works);?>-top-top="top: 0; right: 0;"
                                 >
-                                    <a href="#">
+                                    <a href="http://www.pharmjob.com.tw/" target="_blank">
                                         <img src="images/works/pharmjob.png" alt="works">
                                     </a>
                                 </div>
@@ -430,7 +443,7 @@
                                     data-<?=$animStart($works);?>-top-top="bottom: -50px; left: -70px;"
                                     data-<?=$animEnd($works);?>-top-top="bottom: 0; left: 0;"
                                 >
-                                    <a href="#">
+                                    <a href="http://www.bamahome.com.tw/" target="_blank">
                                         <img src="images/works/bamahome.png" alt="works">
                                     </a>
                                 </div>
@@ -440,7 +453,7 @@
                                     data-<?=$animStart($works);?>-top-top="bottom: -90px;"
                                     data-<?=$animEnd($works);?>-top-top="bottom: 0;"
                                 >
-                                    <a href="#">
+                                    <a href="javasctipt: void(0);" target="_blank">
                                         <img src="images/works/ddi.png" alt="works">
                                     </a>
                                 </div>
@@ -450,7 +463,7 @@
                                     data-<?=$animStart($works);?>-top-top="bottom: -40px; right: -90px;"
                                     data-<?=$animEnd($works);?>-top-top="bottom: 0; right: 0;"
                                 >
-                                    <a href="#">
+                                    <a href="http://ext.asikart.com" target="_blank">
                                         <img src="images/works/asikart.png" alt="works">
                                     </a>
                                 </div>

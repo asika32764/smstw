@@ -1,0 +1,209 @@
+body {
+  padding-top: 55px;
+  background: #fafafa;
+  font-family: 'Open Sans', '微軟正黑體', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', "LiHei Pro", "儷黑Pro", Helvetica, Arial, "Microsoft JhengHei", "微軟正黑體";
+  font-weight: 300;
+}
+a {
+  color: #FF7E02;
+}
+a:hover {
+  color: #cf6502;
+  text-decoration: none;
+}
+p {
+  line-height: 180%;
+}
+.ajax-loader {
+  background: url(../images/ajax-loader.gif) no-repeat center center;
+}
+.sr-container {
+  padding: 65px 30px;
+}
+section article {
+  padding: 30px 0;
+}
+.bg-white {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  background: white;
+}
+header .uk-article-lead {
+  text-transform: uppercase;
+  color: #666;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+#sr-header {
+  background: white;
+  width: 100%;
+  height: 55px;
+  position: fixed;
+  top: 0;
+  border-bottom: 1px solid #eee;
+  z-index: 100;
+}
+h1#sr-logo {
+  margin: 0;
+  height: 42px;
+  margin-top: 5px;
+}
+#sr-logo a {
+  width: 117px;
+  height: 42px;
+  display: inline-block;
+  background: url('../images/sms-logo.png') no-repeat left top;
+  text-indent: -9000px;
+}
+#sr-nav li a {
+  line-height: 55px;
+  height: 55px;
+  font-family: 'Cuprum', sans-serif;
+  text-transform: uppercase;
+}
+#sr-nav li a:hover {
+  color: #FF7E02;
+  background: transparent;
+}
+#sr-nav li.uk-active a {
+  color: #FF7E02;
+  border-bottom: 5px solid #FF7E02;
+  margin-bottom: -1px;
+  background: transparent;
+  position: relative;
+  height: 56px;
+}
+#sr-banner-inner {
+  background: url('../images/header3.jpg') no-repeat center 0;
+  background-attachment: fixed;
+}
+#sr-banner-title-wrap {
+  height: 550px;
+  color: white;
+}
+.sr-banner-title {
+  color: white;
+}
+#sr-banner-title-wrap h1,
+#sr-banner-title-wrap h2,
+#sr-banner-title-wrap h3,
+#sr-banner-title-wrap h4,
+#sr-banner-title-wrap h5,
+#sr-banner-title-wrap h6 {
+  color: white;
+}
+#sr-banner-title-wrap h2,
+#sr-banner-title-wrap h3 {
+  text-transform: uppercase;
+}
+#sr-banner-title-wrap h1 {
+  font-size: 64px;
+  margin: 60px 0;
+  text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+#sr-banner-title-wrap h2 {
+  font-size: 32px;
+}
+#sr-about article {
+  font-size: 16px;
+  line-height: 180%;
+}
+#sr-about-ppt {
+  height: 500px;
+}
+#members {
+  overflow: hidden;
+}
+.member-info,
+.member-info h3 {
+  text-transform: uppercase;
+}
+.member-info {
+  position: relative;
+}
+.member-info h3 {
+  font-weight: 300;
+}
+.member-info figcaption small {
+  font-weight: 300;
+  color: #111;
+}
+#sr-tech {
+  opacity: 0.7;
+}
+#sr-tech-wrap,
+.feature-text {
+  position: relative;
+}
+#sr-works article .works-thumb:hover {
+  position: relative;
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+  -webkit-transition: all ease-in 0.1s;
+  -moz-transition: all ease-in 0.1s;
+  transition: all ease-in 0.1s;
+  z-index: 5;
+}
+#sr-works article .works-thumb:hover img {
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+#sr-works article .works-thumb {
+  position: relative;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+  -webkit-transition: all ease-in 0.1s;
+  -moz-transition: all ease-in 0.1s;
+  transition: all ease-in 0.1s;
+  z-index: 1;
+}
+#sr-works article .works-thumb:hover img {
+  z-index: 10;
+}
+#works {
+  background: #444;
+  color: white;
+}
+#works h1,
+#works h2,
+#works h3,
+#works h4,
+#works header .uk-article-lead {
+  color: white;
+}
+#contact-map {
+  height: 600px;
+}
+#sr-contact {
+  padding: 0;
+  position: relative;
+}
+#sr-contact-body {
+  padding: 30px;
+  float: right;
+  background: white;
+  position: absolute;
+  right: 0;
+  top: -500px;
+  border: 1px solid #ccc;
+}
+#sr-contact-body article {
+  padding-left: 30px;
+}
+#sr-footer {
+  padding: 40px 30px;
+}
+#sr-about article img {
+  position: relative;
+}
