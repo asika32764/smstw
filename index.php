@@ -8,7 +8,8 @@
         <!--
             Hi 偷窺狂您好,
             
-            我們用了 YOOTheme UIKit, jQuery GMap3, Skrollr.js，這個網站只是小菜一碟，滿足您的好奇心了嗎？
+            我們用了 YOOTheme UIKit, jQuery GMap3, Skrollr.js, Scrollspy, LESS, YUI Compressor，
+            這個網站只是小菜一碟，滿足您的好奇心了嗎？
             
             別看了，快加入我們吧～～～！！！
             
@@ -948,7 +949,7 @@
         
         
         <!--CONTRACT START-->
-        <section id="contact" class="bg-white" sr-scrollspy="{repeat: true}">
+        <section id="contact" class="bg-white" sr-scrollspy="{repeat: true}" style="overflow: hidden;">
             <!--GOOGLE MAP-->
             <div id="contact-map">
                 
