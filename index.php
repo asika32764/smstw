@@ -70,7 +70,7 @@
                     <div class="ul-navbar uk-visible-small uk-navbar-center">
                         <h1 id="sr-logo" class="uk-navbar-brand">
                             <a href="#top">
-                                LOGO
+                                SMS Taiwan
                             </a>
                         </h1>
                     </div>
@@ -78,7 +78,7 @@
                     <div class="ul-navbar uk-hidden-small">
                         <h1 id="sr-logo" class="uk-navbar-brand">
                             <a href="#top">
-                                LOGO
+                                SMS Taiwan
                             </a>
                         </h1>
                         
