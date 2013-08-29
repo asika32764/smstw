@@ -144,6 +144,15 @@ h1#sr-logo {
   font-size: 16px;
   line-height: 180%;
 }
+#sr-about-ppt {
+  height: 500px;
+}
+@media (max-width: 480px) {
+  #sr-about-ppt.ajax-loader {
+    height: 200px;
+    background: none;
+  }
+}
 #members {
   overflow: hidden;
 }
