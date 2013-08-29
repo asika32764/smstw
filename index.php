@@ -6,10 +6,19 @@
 <html lang="en-US">
     <head>
         <!--
-            別看了，快加入我們吧～～～！！！
-            ezio@bm-sms.com.tw
+            Hi 偷窺狂您好,
             
-            http://bm-sms.com.tw/#recruiting
+            我們用了 YOOTheme UIKit, jQuery GMap3, Skrollr.js，這個網站只是小菜一碟，滿足您的好奇心了嗎？
+            
+            別看了，快加入我們吧～～～！！！
+            
+            徵才資訊在此；
+                - http://bm-sms.com.tw/#recruiting
+                - http://goo.gl/ePDzYb
+                - http://goo.gl/TX6e9p
+            
+            都來這裡了改寄這個信箱吧：
+                ezio@bm-sms.com.tw
         -->
         <meta charset="UTF-8">
         <meta name="viewport"           content="width=device-width, initial-scale=1, maximum-scale=2.0">
