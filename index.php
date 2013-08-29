@@ -177,25 +177,27 @@
                                 <div class="uk-grid uk-text-justify" data-500="opacity:0;" data-600="opacity:1;">
                                     <div class="uk-width-large-3-5">
                                         <h3>
-                                            SMS Inc.
+                                            SMS Taiwan Co. Ltd
                                         </h3>
                                         <p>
-                                            We are the Japanese branch of SMS in Taiwan, dedicated elderly services to
-                                            medical, long-term, and elderly Seniors. SMS also creates value in sustainability
-                                            and provides a required information platform for the community in Taiwan.
+                                            We are the subsidiary of Japan listed SMS Co. Ltd in Taiwan.
+                                            We dedicated elderly services to medical, long-term, and active seniors.
+                                            SMS also sustainable creates value for the society and provides essential
+                                            health related information platform for professions and public in Taiwan.
                                         </p>
                                         <p>
-                                            iHealth is our current mainly service brand in Taiwan, provides long-term and
-                                            prescription home delivery services. People are able to deliver their prescriptions
-                                            through fax, smart phone, and network service. Our pharmacist will deliver
-                                            medicines to people’s home personally.
+                                            Dispensing and delivery chronic diseases prescriptions to nursing homes
+                                            and individual users are the mainly service in Taiwan. People are able
+                                            to pass a copy or image of their prescriptions through fax, smart phone, and network service.
+                                            Pharmacists will deliver medicines according to the refilling dates,
+                                            assigned location and convenient time to the patients or the careers.
                                         </p>
                                         <p>
-                                            Because of human progressive society, low birth rate, aging, and health manpower training
-                                            have become the challenge of the future society. For the next generation of medical standards,
-                                            and quality of life of the elderly population, SMS will strive to provide information as
-                                            an important bridge to community services for people in need every one, so that humans have
-                                            a better and healthier future.
+                                            Due to the human progressive society, low birth rate, aging and health manpower training
+                                            has become the challenge of the future society. In order to eliminating the medical information
+                                            barriers and improving the quality of life for the publics, SMS will strive to provide information
+                                            as an important bridge to professionals and end users.  We are looking forward to contribute to the
+                                            society continuously to make people healthier.
                                         </p>
                                     </div>
                                     <div class="uk-width-large-2-5">
