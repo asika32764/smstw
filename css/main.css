@@ -63,6 +63,12 @@ h1#sr-logo {
   background: url('../images/sms-logo.png') no-repeat left top;
   text-indent: -9000px;
 }
+@media (max-width: 480px) {
+  #sr-logo a {
+    position: relative;
+    top: -43px;
+  }
+}
 #sr-nav li a {
   line-height: 55px;
   height: 55px;
@@ -125,13 +131,16 @@ h1#sr-logo {
 }
 #sr-banner-title-wrap h2 {
   font-size: 32px;
+  line-height: 100%;
+}
+@media (max-width: 480px) {
+  #sr-banner-title-wrap h1 {
+    margin-bottom: 10px;
+  }
 }
 #sr-about article {
   font-size: 16px;
   line-height: 180%;
-}
-#sr-about-ppt {
-  height: 500px;
 }
 #members {
   overflow: hidden;
@@ -225,6 +234,11 @@ h1#sr-logo {
 }
 #sr-contact-body article {
   padding-left: 30px;
+}
+@media (max-width: 480px) {
+  #sr-contact-body  article {
+    padding-left: 0px;
+  }
 }
 #sr-footer {
   padding: 40px 30px;

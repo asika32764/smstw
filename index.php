@@ -49,7 +49,7 @@
         <script src="js/jquery-scrollspy.js"></script>
         <script src="js/jquery.smooth-scroll.js"></script>
         <script src="js/skrollr.js"></script>
-        <script src="js/uikit.min.js"></script>
+        <script src="js/uikit.js"></script>
         <script src="js/gmap3.min.js"></script>
         <script src="js/main.js"></script>
         <?php else:?>

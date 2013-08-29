@@ -917,7 +917,7 @@
 
                 if (!e.type.match(/swipe/)) {
                     if (target.hasClass("uk-offcanvas-bar")) return;
-                    if (target.parents(".uk-offcanvas-bar:first").length) return;
+                    //if (target.parents(".uk-offcanvas-bar:first").length) return;
                 }
 
                 e.stopImmediatePropagation();
