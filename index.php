@@ -920,7 +920,7 @@
                                         應徵方式
                                     </h3>
                                     <p>
-                                        請備妥履歷、作品、自傳等資料，寄至 service@bm-sms.com.tw ，信件主旨請打：[應徵] 職位 - 姓名。 
+                                        請備妥履歷、作品、自傳等資料，寄至 service@cocoyaku.com.tw ，信件主旨請打：[應徵] 職位 - 姓名。 
                                     </p>
                                 </div>
                             </div>
@@ -970,7 +970,7 @@
                                 <a href="http://goo.gl/e4aD8p" target="_blank"><i class="uk-icon-map-marker"></i> Google map</a>
                             </p>
                             <p>
-                                <i class="uk-icon-envelope uk-icon-small"></i> service@bm-sms.com.tw
+                                <i class="uk-icon-envelope uk-icon-small"></i> service@cocoyaku.com.tw
                             </p>
                         </article>  
                     </div>
