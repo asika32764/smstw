@@ -7,7 +7,9 @@
     <head>
         <!--
             別看了，快加入我們吧～～～！！！
-            service@bm-sms.com.tw
+            ezio@bm-sms.com.tw
+            
+            http://bm-sms.com.tw/#recruiting
         -->
         <meta charset="UTF-8">
         <meta name="viewport"           content="width=device-width, initial-scale=1, maximum-scale=2.0">
@@ -633,24 +635,24 @@
                                 ?>
                                 
                                 
-                                <!--AVATAR []-->
+                                <!--AVATAR [Pearl]-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
                                     data-<?=$animStart($mambers);?>-top-top="opacity:0; right: -300px;"
                                     data-<?=$animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
-                                        <a href="#contact" class="uk-overlay" target="_blank">
-                                            <img src="images/mambers/you.gif" alt="avatar" class="member-avatar" />
+                                        <a href="http://fb.me/shihpearl" class="uk-overlay" target="_blank">
+                                            <img src="images/mambers/pearl-avatar.jpg" alt="avatar" class="member-avatar" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
                                     <figcaption class="">
                                         <h3>
-                                            Join us!
+                                            Pearl Shih
                                         </h3>
                                         <small>
-                                            Front-End Engineer
+                                            Marketing
                                         </small>
                                     </figcaption>
                                 </div>
@@ -738,7 +740,7 @@
                                             Join us!
                                         </h3>
                                         <small>
-                                            UI / UX Designer
+                                            Front-End Engineer
                                         </small>
                                     </figcaption>
                                 </div>
