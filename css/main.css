@@ -94,7 +94,7 @@ h1#sr-logo {
   text-shadow: 0 1px 0 rgba(0,0,0,0.5);
 }
 #sr-banner-inner {
-  background: url('../images/header3.jpg') no-repeat center 0;
+  background: url('../images/banner-1.jpg') no-repeat center 0;
   background-attachment: fixed;
 }
 #sr-banner-title-wrap {
@@ -113,6 +113,7 @@ h1#sr-logo {
   color: white;
   line-height: 120%;
   position: relative;
+  text-shadow: 0 0 5px rgba(0,0,0,0.7);
 }
 #sr-banner-title-wrap h2,
 #sr-banner-title-wrap h3 {
@@ -121,7 +122,6 @@ h1#sr-logo {
 #sr-banner-title-wrap h1 {
   font-size: 64px;
   margin: 60px 0;
-  text-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 #sr-banner-title-wrap h2 {
   font-size: 32px;

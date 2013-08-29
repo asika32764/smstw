@@ -19,7 +19,7 @@
         
         <meta property="og:image"       content="http://bm-sms.com.tw/images/sms-logo-white.jpg"/>
         <meta property="og:url"         content="http://bm-sms.com.tw"/>
-        <meta property="og:title"       content="SMS Taiwan. Come join us, we are hiring!"/>
+        <meta property="og:title"       content="SMS Taiwan - Come join us, we are hiring!"/>
         <meta property="og:site_name"   content="SMS Taiwan"/>
         <meta property="og:type"        content="website"/>
         <meta property="og:description" content="我們是知恩思資訊股份有限公司，日商 SMS 在台灣的分公司，致力於為高齡化社會中的3個領域
@@ -28,7 +28,7 @@
         
         <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
         
-        <title>SMS Taiwan. Come join us, we are hiring!</title>
+        <title>SMS Taiwan - Come join us, we are hiring!</title>
         
         <?php if($debug) : ?>
         
@@ -164,16 +164,30 @@
                                     />
                                 </p>
                                 <div class="uk-grid uk-text-justify" data-500="opacity:0;" data-600="opacity:1;">
-                                    <div class="uk-width-large-1-2">
+                                    <div class="uk-width-large-3-5">
+                                        <h3>
+                                            SMS Inc.
+                                        </h3>
                                         <p>
-                                            It has survived not only five centuries, but also the leap into
-                                            electronic typesetting, remaining essentially unchanged. It was popularised
-                                            in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                                            and more recently with desktop publishing software like Aldus PageMaker
-                                            including versions of Lorem Ipsum.
-                                        </p>    
+                                            We are the Japanese branch of SMS in Taiwan, dedicated elderly services to
+                                            medical, long-term, and elderly Seniors. SMS also creates value in sustainability
+                                            and provides a required information platform for the community in Taiwan.
+                                        </p>
+                                        <p>
+                                            iHealth is our current mainly service brand in Taiwan, provides long-term and
+                                            prescription home delivery services. People are able to deliver their prescriptions
+                                            through fax, smart phone, and network service. Our pharmacist will deliver
+                                            medicines to people’s home personally.
+                                        </p>
+                                        <p>
+                                            Because of human progressive society, low birth rate, aging and health manpower training
+                                            have become the challenge of the future society. For the next generation of medical standards,
+                                            and quality of life of the elderly population, SMS will strive to provide information as
+                                            an important bridge to community services for people in need every one, so that humans have
+                                            a better and healthier future.
+                                        </p>
                                     </div>
-                                    <div class="uk-width-large-1-2">
+                                    <div class="uk-width-large-2-5">
                                         <h3>
                                             公司簡介
                                         </h3>
@@ -506,7 +520,7 @@
                                     data-<?=$animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
-                                        <a href="http://fb.me/eziospray" class="uk-overlay" target="_blank">
+                                        <a href="http://fb.me/ihealth" class="uk-overlay" target="_blank">
                                             <img src="images/mambers/johnny-avatar.jpg" alt="avatar" class="member-avatar" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
@@ -516,7 +530,7 @@
                                             Johnny Wang
                                         </h3>
                                         <small>
-                                            CEO & Generals
+                                            CEO & President
                                         </small>
                                     </figcaption>
                                 </div>
@@ -528,7 +542,7 @@
                                     data-<?=$animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
-                                        <a href="#" class="uk-overlay" target="_blank">
+                                        <a href="http://fb.me/YuMinLai.tw" class="uk-overlay" target="_blank">
                                             <img src="images/mambers/infinity-avatar.jpg" alt="avatar" class="member-avatar" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
@@ -538,7 +552,7 @@
                                             Infinity Lai
                                         </h3>
                                         <small>
-                                            SR-ENGR & Philosopher
+                                            Consultant & SR-Developer
                                         </small>
                                     </figcaption>
                                 </div>
@@ -558,7 +572,7 @@
                                     <figcaption class="">
                                         <h3>Asika Simon</h3>
                                         <small>
-                                            CTO & Artist
+                                            CTO & Lead Develpoer
                                         </small>
                                     </figcaption>
                                 </div>
@@ -570,7 +584,7 @@
                                     data-<?=$animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
-                                        <a href="#" class="uk-overlay" target="_blank">
+                                        <a href="http://www.jungwei.tw/brucewayne/" class="uk-overlay" target="_blank">
                                             <img src="images/mambers/wayne-avatar.png" alt="avatar" class="member-avatar" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
@@ -580,7 +594,7 @@
                                             Wayne Lin
                                         </h3>
                                         <small>
-                                            Engineer & Storyteller
+                                            Software Developer
                                         </small>
                                     </figcaption>
                                 </div>
@@ -592,7 +606,7 @@
                                     data-<?=$animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
-                                        <a href="http://fb.me/eziospray" class="uk-overlay" target="_blank">
+                                        <a href="http://fb.me/lucia.yu.98" class="uk-overlay" target="_blank">
                                             <img src="images/mambers/lucia-avatar.jpg" alt="avatar" class="member-avatar" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
@@ -751,7 +765,7 @@
                                 Recruiting
                             </h1>
                             <h2 class="uk-article-lead">
-                                We need you.
+                                Together We Can Change The World
                             </h2>
                         </header>
                         <section id="jobs">
@@ -899,7 +913,18 @@
                                     </article>
                                 </div>
                             </div>
-                        </section>  
+                            <hr />
+                            <div class="uk-grid">
+                                <div class="uk-width-large-1">
+                                    <h3>
+                                        應徵方式
+                                    </h3>
+                                    <p>
+                                        請備妥履歷、作品、自傳等資料，寄至 service@bm-sms.com.tw ，信件主旨請打：[應徵] 職位 - 姓名。 
+                                    </p>
+                                </div>
+                            </div>
+                        </section>
                     </div>
                 </div>
                 
@@ -934,7 +959,7 @@
                         </header>
                         <article>
                             <p>
-                                <i class="uk-icon-phone uk-icon-small"></i> Tel: +886-2-2756-0286 / Fax: +886-2-2760-5895
+                                <i class="uk-icon-phone uk-icon-small"></i> Tel: +886-2-2756-0158 / Fax: +886-2-2760-5895
                             </p>
                             <p>
                                 <i class="uk-icon-home uk-icon-small"></i> 台北市松山區南京東路五段356號15樓之1
