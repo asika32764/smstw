@@ -180,7 +180,7 @@
                                             medicines to people’s home personally.
                                         </p>
                                         <p>
-                                            Because of human progressive society, low birth rate, aging and health manpower training
+                                            Because of human progressive society, low birth rate, aging, and health manpower training
                                             have become the challenge of the future society. For the next generation of medical standards,
                                             and quality of life of the elderly population, SMS will strive to provide information as
                                             an important bridge to community services for people in need every one, so that humans have
