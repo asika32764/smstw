@@ -21,7 +21,7 @@
         
         <meta property="og:image"       content="http://bm-sms.com.tw/images/sms-logo-white.jpg"/>
         <meta property="og:url"         content="http://bm-sms.com.tw"/>
-        <meta property="og:title"       content="SMS Taiwan - Come join us, we are hiring!"/>
+        <meta property="og:title"       content="SMS Taiwan 知恩思資訊 - Come join us, we are hiring!"/>
         <meta property="og:site_name"   content="SMS Taiwan"/>
         <meta property="og:type"        content="website"/>
         <meta property="og:description" content="我們是知恩思資訊股份有限公司，日商 SMS 在台灣的分公司，致力於為高齡化社會中的3個領域
@@ -30,7 +30,7 @@
         
         <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
         
-        <title>SMS Taiwan - Come join us, we are hiring!</title>
+        <title>SMS Taiwan 知恩思資訊 - Come join us, we are hiring!</title>
         
         <?php if($debug) : ?>
         
