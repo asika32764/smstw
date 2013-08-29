@@ -64,9 +64,8 @@ h1#sr-logo {
   text-indent: -9000px;
 }
 @media (max-width: 480px) {
-  #sr-logo a {
-    position: relative;
-    top: -43px;
+  #sr-logo {
+    padding: 0;
   }
 }
 #sr-nav li a {
@@ -132,6 +131,9 @@ h1#sr-logo {
 #sr-banner-title-wrap h2 {
   font-size: 32px;
   line-height: 100%;
+}
+#sr-banner-title-wrap > div {
+  max-width: 99%;
 }
 @media (max-width: 480px) {
   #sr-banner-title-wrap h1 {
