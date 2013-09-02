@@ -175,7 +175,7 @@
                                         data-100="right:-300px;opacity:0;" data-500="right:0px; opacity:1;"
                                     />
                                 </p>
-                                <div class="uk-grid uk-text-justify" data-500="opacity:0;" data-600="opacity:1;">
+                                <div class="uk-grid uk-text-justify" data-500="opacity:0;" data-700="opacity:1;">
                                     <div class="uk-width-large-3-5">
                                         <h3>
                                             SMS Taiwan Co. Ltd
@@ -222,7 +222,7 @@
                                     </div>
                                 </div>
                                 <hr />
-                                <div data-1000="opacity:0;" data-1100="opacity:1;">
+                                <div data-1200="opacity:0;" data-1400="opacity:1;">
                                     <h2 class="uk-text-center">SMS Story: What is Aging Society (高齡化社會)</h2>
                                     <p  class="uk-text-center">
                                         About our value, action and service. / 了解我們的價值，行動與服務。
@@ -272,7 +272,7 @@
                                 );
                                 
                                 $actionStart = 'opacity:0; transform: scale(0);';
-                                $actionEnd   = 'opacity:1; transform: scale(1);'
+                                $actionEnd   = 'opacity:1; transform: scale(1);';
                             ?>
                             
                             <div class="uk-grid">
