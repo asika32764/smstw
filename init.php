@@ -2,11 +2,11 @@
 defined('SMS_SITE') or die;
 
 // Debug
-$debug = 0;
+$debug = 1;
 
 
 // LESS
-if(0) :
+if(1) :
     require "lessphp/lessc.inc.php";
     
     $path = 'less/main.less';

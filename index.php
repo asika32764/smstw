@@ -6,7 +6,7 @@
 <html lang="en-US">
     <head>
         <!--
-            Hi 偷窺狂您好,
+            Hello 您好,
             
             我們用了 YOOTheme UIKit, jQuery GMap3, Skrollr.js, Scrollspy, LESS, YUI Compressor，
             這個網站只是小菜一碟，滿足您的好奇心了嗎？
@@ -223,7 +223,7 @@
                                 </div>
                                 <hr />
                                 <div data-1000="opacity:0;" data-1100="opacity:1;">
-                                    <h2 class="uk-text-center">SMS Story: What is Ageing Society (高齡化社會)</h2>
+                                    <h2 class="uk-text-center">SMS Story: What is Aging Society (高齡化社會)</h2>
                                     <p  class="uk-text-center">
                                         About our value, action and service. / 了解我們的價值，行動與服務。
                                     </p>
@@ -481,7 +481,7 @@
                                 <div
                                     class="works-thumb uk-width-large-1-3"
                                 >
-                                    <a href="javasctipt: void(0);" target="_blank">
+                                    <a href="http://www.cocoyaku.com.tw/%E8%97%A5%E5%93%81%E4%BA%A4%E4%BA%92%E4%BD%9C%E7%94%A8%E6%9F%A5%E8%A9%A2" target="_blank">
                                         <img src="images/works/ddi.png" alt="works">
                                     </a>
                                 </div>
@@ -934,7 +934,7 @@
                                         應徵方式
                                     </h3>
                                     <p>
-                                        請備妥履歷、作品、自傳等資料，寄至 service@cocoyaku.com.tw ，信件主旨請打：[應徵] 職位 - 姓名。 
+                                        請備妥履歷、作品、自傳等資料，寄至 service@bm-sms.com.tw ，信件主旨請打：[應徵] 職位 - 姓名。 
                                     </p>
                                 </div>
                             </div>
@@ -984,7 +984,7 @@
                                 <a href="http://goo.gl/e4aD8p" target="_blank"><i class="uk-icon-map-marker"></i> Google map</a>
                             </p>
                             <p>
-                                <i class="uk-icon-envelope uk-icon-small"></i> service@cocoyaku.com.tw
+                                <i class="uk-icon-envelope uk-icon-small"></i> service@bm-sms.com.tw
                             </p>
                         </article>  
                     </div>
