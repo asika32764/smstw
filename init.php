@@ -2,7 +2,7 @@
 defined('SMS_SITE') or die;
 
 // Debug
-$debug = 1;
+$debug = 0;
 
 
 // LESS
