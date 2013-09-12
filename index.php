@@ -5,22 +5,6 @@
 <!DOCTYPE HTML>
 <html lang="en-US">
     <head>
-        <!--
-            Hello 您好,
-            
-            我們用了 YOOTheme UIKit, jQuery GMap3, Skrollr.js, Scrollspy, LESS, YUI Compressor，
-            這個網站只是小菜一碟，滿足您的好奇心了嗎？
-            
-            別看了，快加入我們吧～～～！！！
-            
-            徵才資訊在此；
-                - http://bm-sms.com.tw/#recruiting
-                - http://goo.gl/ePDzYb
-                - http://goo.gl/TX6e9p
-            
-            都來這裡了改寄這個信箱吧：
-                ezio@bm-sms.com.tw
-        -->
         <meta charset="UTF-8">
         <meta name="viewport"           content="width=device-width, initial-scale=1, maximum-scale=2.0">
         <meta name="keywords"           content="知恩思資訊股份有限公司, SMS台灣分部, 知恩思" />
@@ -31,7 +15,7 @@
         
         <meta property="og:image"       content="http://bm-sms.com.tw/images/sms-logo-white.jpg"/>
         <meta property="og:url"         content="http://bm-sms.com.tw"/>
-        <meta property="og:title"       content="SMS Taiwan 知恩思資訊 - Come join us, we are hiring!"/>
+        <meta property="og:title"       content="SMS Taiwan 知恩思資訊股份有限公司"/>
         <meta property="og:site_name"   content="SMS Taiwan"/>
         <meta property="og:type"        content="website"/>
         <meta property="og:description" content="我們是知恩思資訊股份有限公司，日商 SMS 在台灣的分公司，致力於為高齡化社會中的3個領域
@@ -40,7 +24,7 @@
         
         <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
         
-        <title>SMS Taiwan 知恩思資訊 - Come join us, we are hiring!</title>
+        <title>SMS Taiwan 知恩思資訊資訊股份有限公司</title>
         
         <?php if($debug) : ?>
         
@@ -97,7 +81,7 @@
                             <li><a href="#features" >Features</a></li>
                             <li><a href="#works" >Works</a></li>
                             <li><a href="#members" >Members</a></li>
-                            <li><a href="#recruiting" >Recruiting</a></li>
+                            <!--<li><a href="#recruiting" >Recruiting</a></li>-->
                             <li><a href="#contact" >Contact Us</a></li>
                         </ul>
                     </div>
@@ -110,7 +94,7 @@
                             <li><a href="#features" >Features</a></li>
                             <li><a href="#works" >Works</a></li>
                             <li><a href="#members" >Members</a></li>
-                            <li><a href="#recruiting" >Recruiting</a></li>
+                            <!--<li><a href="#recruiting" >Recruiting</a></li>-->
                             <li><a href="#contact" >Contact Us</a></li>
                         </ul>    
                     </div>
@@ -129,14 +113,14 @@
                         
                         <div class="uk-vertical-align-middle">
                             <h1 class="sr-banner-title" data-500-end="bottom: 2500px;" data-0-start="bottom: 0px;">
-                                We are Hiring, Come Join Us!
+                                Create value contribution to aged society.
                             </h1>
                             <h2 data-500-end="bottom: 1700px;" data-0-start="bottom: 0px;">
                                 Senior Marketing System in Taiwan
                                 <!--知恩思資訊-->
                             </h2>
                             <h3 data-500-end="bottom: 1300px;" data-0-start="bottom: 0px;">
-                                Continue to create value contribution to aged society.
+                                Provide suitable information media for aged society
                                 <!--Provide suitable information media for aged society -->
                                 <!--提供適合高齡社會的資訊媒體，持續創造價值貢獻於社會。-->
                             </h3>
@@ -366,7 +350,7 @@
                                     <div class="uk-width-large-1">
                                         <p class="uk-text-center-left">
                                             除此之外，我們也涉略多種領域的技術，如 Symfony, Yii,
-                                            Mootools, AngularJS 等，在這裡，您可以學到優美的開發技術與流程。
+                                            Mootools 等，跟進世界潮流與趨勢。
                                         </p>
                                     </div>
                                 </div>
@@ -770,7 +754,7 @@
         
         
         <!--RECRUIT START-->
-        <section id="recruiting" sr-scrollspy="{repeat: true}">
+        <!--<section id="recruiting" sr-scrollspy="{repeat: true}">
             <div id="sr-example" class="uk-container uk-container-center sr-container">
                 <div class="uk-grid">
                     <div class="uk-width-large-1">
@@ -943,7 +927,7 @@
                 </div>
                 
             </div>
-        </section>
+        </section>-->
         <!--RECRUIT END-->
         
         
