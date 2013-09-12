@@ -998,7 +998,7 @@
                             </a>
                             |
                             <a href="http://kr.bm-sms.asia/" target="_blank">
-                                Koera
+                                Korea
                             </a>
                             |
                             <a href="http://id.bm-sms.asia/" target="_blank">
