@@ -113,7 +113,7 @@
                         
                         <div class="uk-vertical-align-middle">
                             <h1 class="sr-banner-title" data-500-end="bottom: 2500px;" data-0-start="bottom: 0px;">
-                                Create value contribution to aged society.
+                                Create Value Contribution to Aged Society.
                             </h1>
                             <h2 data-500-end="bottom: 1700px;" data-0-start="bottom: 0px;">
                                 Senior Marketing System in Taiwan
@@ -1021,8 +1021,8 @@
             m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
             })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
           
-            ga('create', 'UA-43607731-1', 'bm-sms.com.tw');
-            ga('send', 'pageview');
-        </script>   
+            ga('create', 'UA-34403387-4', 'bm-sms.com.tw');
+            ga('send', 'pageview');  
+        </script>  
     </body> 
 </html>
