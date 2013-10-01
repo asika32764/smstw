@@ -501,6 +501,8 @@
                             </h2>
                         </header>
                         <article>
+                            
+                            <!-- Row 1 -->
                             <div class="uk-grid">
                                 <?php
                                     $mambers = array(
@@ -620,10 +622,11 @@
                                 </div>
                             </div>
                             
+                            <!-- Row 2 -->
                             <div class="uk-grid">
                                 <?php
                                     $mambers = array(
-                                        'begin'     => 325,
+                                        'begin'     => 270,
                                         'add'       => -65,
                                         'duration'  => -80,
                                         'current'   => 1,
@@ -653,7 +656,7 @@
                                     </figcaption>
                                 </div>
                                 
-                                <!--AVATAR []-->
+                                <!--AVATAR [Peggy]-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
                                     data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
@@ -661,22 +664,146 @@
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
-                                            <img src="images/mambers/you.gif" alt="avatar" class="member-avatar" />
+                                            <img src="images/mambers/peggy-avatar.jpg" alt="avatar" class="member-avatar" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
                                     <figcaption class="">
                                         <h3>
-                                            Join us!
+                                            Peggy Lo
                                         </h3>
                                         <small>
-                                            Software Test Engineer
+                                            Marketing
+                                        </small>
+                                    </figcaption>
+                                </div>
+                                
+                                <!--AVATAR [Leo]-->
+                                <div class="member-info uk-width-large-1-5"
+                                    data-anchor-target="#members"
+                                    data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
+                                    data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
+                                >
+                                    <figure class="uk-margin-bottom">
+                                        <a href="#contact" class="uk-overlay" target="_blank">
+                                            <img src="images/mambers/leo-avatar.jpg" alt="avatar" class="member-avatar" />
+                                            <div class="uk-overlay-area"></div>
+                                        </a>
+                                    </figure>
+                                    <figcaption class="">
+                                        <h3>
+                                            Leo Tsun
+                                        </h3>
+                                        <small>
+                                            Software Developer
+                                        </small>
+                                    </figcaption>
+                                </div>
+                                
+                                <!--AVATAR [Michael]-->
+                                <div class="member-info uk-width-large-1-5"
+                                    data-anchor-target="#members"
+                                    data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
+                                    data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
+                                >
+                                    <figure class="uk-margin-bottom">
+                                        <a href="#contact" class="uk-overlay" target="_blank">
+                                            <img src="images/mambers/michael-avatar.jpg" alt="avatar" class="member-avatar" />
+                                            <div class="uk-overlay-area"></div>
+                                        </a>
+                                    </figure>
+                                    <figcaption class="">
+                                        <h3>
+                                            Michael Chen
+                                        </h3>
+                                        <small>
+                                            Software Developer
+                                        </small>
+                                    </figcaption>
+                                </div>
+                                
+                                <!--AVATAR [Benson]-->
+                                <div class="member-info uk-width-large-1-5"
+                                    data-anchor-target="#members"
+                                    data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
+                                    data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
+                                >
+                                    <figure class="uk-margin-bottom">
+                                        <a href="#contact" class="uk-overlay" target="_blank">
+                                            <img src="images/mambers/benson-avatar.jpg" alt="avatar" class="member-avatar" />
+                                            <div class="uk-overlay-area"></div>
+                                        </a>
+                                    </figure>
+                                    <figcaption class="">
+                                        <h3>
+                                            Bension Liu
+                                        </h3>
+                                        <small>
+                                            Front-End Engineer
+                                        </small>
+                                    </figcaption>
+                                </div>
+                                
+                            </div>
+                            
+                            <!-- Row 3 -->
+                            <div class="uk-grid">
+                                <?php
+                                    $mambers = array(
+                                        'begin'     => 50,
+                                        'add'       => -65,
+                                        'duration'  => -80,
+                                        'current'   => 1,
+                                    );
+                                ?>
+                                
+                                
+                                <!--AVATAR [Lewis]-->
+                                <div class="member-info uk-width-large-1-5"
+                                    data-anchor-target="#members"
+                                    data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
+                                    data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
+                                >
+                                    <figure class="uk-margin-bottom">
+                                        <a href="http://fb.me/shihpearl" class="uk-overlay" target="_blank">
+                                            <img src="images/mambers/lewis-avatar.jpg" alt="avatar" class="member-avatar" />
+                                            <div class="uk-overlay-area"></div>
+                                        </a>
+                                    </figure>
+                                    <figcaption class="">
+                                        <h3>
+                                            Lewis Chang
+                                        </h3>
+                                        <small>
+                                            Software Developer
+                                        </small>
+                                    </figcaption>
+                                </div>
+                                
+                                <!--AVATAR [Tim]-->
+                                <div class="member-info uk-width-large-1-5"
+                                    data-anchor-target="#members"
+                                    data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
+                                    data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
+                                >
+                                    <figure class="uk-margin-bottom">
+                                        <a href="#contact" class="uk-overlay" target="_blank">
+                                            <img src="images/mambers/tim-avatar.jpg" alt="avatar" class="member-avatar" />
+                                            <div class="uk-overlay-area"></div>
+                                        </a>
+                                    </figure>
+                                    <figcaption class="">
+                                        <h3>
+                                            Tim Lin
+                                        </h3>
+                                        <small>
+                                            Front-End Engineer
                                         </small>
                                     </figcaption>
                                 </div>
                                 
                                 <!--AVATAR []-->
-                                <div class="member-info uk-width-large-1-5"
+                                <!--<div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
                                     data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
                                     data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
@@ -695,10 +822,10 @@
                                             Database & Software Engineer
                                         </small>
                                     </figcaption>
-                                </div>
+                                </div>-->
                                 
                                 <!--AVATAR []-->
-                                <div class="member-info uk-width-large-1-5"
+                                <!--<div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
                                     data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
                                     data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
@@ -717,10 +844,10 @@
                                             Product Manager
                                         </small>
                                     </figcaption>
-                                </div>
+                                </div>-->
                                 
                                 <!--AVATAR []-->
-                                <div class="member-info uk-width-large-1-5"
+                                <!--<div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
                                     data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
                                     data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
@@ -739,7 +866,7 @@
                                             Front-End Engineer
                                         </small>
                                     </figcaption>
-                                </div>
+                                </div>-->
                                 
                             </div>
                             
