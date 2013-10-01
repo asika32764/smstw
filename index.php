@@ -265,15 +265,15 @@
                                         <img
                                             src="images/features/joomla-orange.png" width="150" height="150" alt=""
                                             data-anchor-target="#features"
-                                            data-<?=$animStart($feature_img);?>-top-top="<?=$actionStart;?>"
-                                            data-<?=$animEnd($feature_img);?>-top-top="<?=$actionEnd;?>"
+                                            data-<?php echo $animStart($feature_img);?>-top-top="<?php echo $actionStart;?>"
+                                            data-<?php echo $animEnd($feature_img);?>-top-top="<?php echo $actionEnd;?>"
                                         />
                                     </p>
                                     <div
                                         class="feature-text"
                                         data-anchor-target="#features"
-                                        data-<?=$animStart($feature_text);?>-top-top="opacity: 0; top: 100px;"
-                                        data-<?=$animEnd($feature_text);?>-top-top="opacity: 1; top: 0px;"
+                                        data-<?php echo $animStart($feature_text);?>-top-top="opacity: 0; top: 100px;"
+                                        data-<?php echo $animEnd($feature_text);?>-top-top="opacity: 1; top: 0px;"
                                     >
                                         <h3 class="uk-text-center">
                                             專業技術
@@ -291,15 +291,15 @@
                                         <img
                                             src="images/features/opensource-orange.png" width="150" height="150" alt=""
                                             data-anchor-target="#features"
-                                            data-<?=$animStart($feature_img);?>-top-top="<?=$actionStart;?>"
-                                            data-<?=$animEnd($feature_img);?>-top-top="<?=$actionEnd;?>"
+                                            data-<?php echo $animStart($feature_img);?>-top-top="<?php echo $actionStart;?>"
+                                            data-<?php echo $animEnd($feature_img);?>-top-top="<?php echo $actionEnd;?>"
                                         />
                                     </p>
                                     <div
                                         class="feature-text"
                                         data-anchor-target="#features"
-                                        data-<?=$animStart($feature_text);?>-top-top="opacity: 0; top: 100px;"
-                                        data-<?=$animEnd($feature_text);?>-top-top="opacity: 1; top: 0px;"
+                                        data-<?php echo $animStart($feature_text);?>-top-top="opacity: 0; top: 100px;"
+                                        data-<?php echo $animEnd($feature_text);?>-top-top="opacity: 1; top: 0px;"
                                     >
                                         <h3 class="uk-text-center">
                                             開源精神
@@ -317,15 +317,15 @@
                                         <img
                                             src="images/features/global-orange.png" width="150" height="150" alt=""
                                             data-anchor-target="#features"
-                                            data-<?=$animStart($feature_img);?>-top-top="<?=$actionStart;?>"
-                                            data-<?=$animEnd($feature_img);?>-top-top="<?=$actionEnd;?>"
+                                            data-<?php echo $animStart($feature_img);?>-top-top="<?php echo $actionStart;?>"
+                                            data-<?php echo $animEnd($feature_img);?>-top-top="<?php echo $actionEnd;?>"
                                         />
                                     </p>
                                     <div
                                         class="feature-text"
                                         data-anchor-target="#features"
-                                        data-<?=$animStart($feature_text);?>-top-top="opacity: 0; top: 100px;"
-                                        data-<?=$animEnd($feature_text);?>-top-top="opacity: 1; top: 0px;"
+                                        data-<?php echo $animStart($feature_text);?>-top-top="opacity: 0; top: 100px;"
+                                        data-<?php echo $animEnd($feature_text);?>-top-top="opacity: 1; top: 0px;"
                                     >
                                         <h3 class="uk-text-center">
                                             國際視野
@@ -343,8 +343,8 @@
                             <div
                                 id="sr-tech-wrap"
                                 data-anchor-target="#features"
-                                data-<?=$animStart($feature_text);?>-top-top="opacity: 0; top: 100px;"
-                                data-<?=$animEnd($feature_text);?>-top-top="opacity: 1; top: 0px;"
+                                data-<?php echo $animStart($feature_text);?>-top-top="opacity: 0; top: 100px;"
+                                data-<?php echo $animEnd($feature_text);?>-top-top="opacity: 1; top: 0px;"
                             >
                                 <div class="uk-grid">
                                     <div class="uk-width-large-1">
@@ -514,8 +514,8 @@
                                 <!--AVATAR [Johnny]-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
-                                    data-<?=$animStart($mambers);?>-top-top="opacity:0; right: -300px;"
-                                    data-<?=$animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
+                                    data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
+                                    data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="http://fb.me/ihealth" class="uk-overlay" target="_blank">
@@ -536,8 +536,8 @@
                                 <!--AVATAR [Infinity]-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
-                                    data-<?=$animStart($mambers);?>-top-top="opacity:0; right: -300px;"
-                                    data-<?=$animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
+                                    data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
+                                    data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="http://fb.me/YuMinLai.tw" class="uk-overlay" target="_blank">
@@ -558,8 +558,8 @@
                                 <!--AVATAR [Asika]-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
-                                    data-<?=$animStart($mambers);?>-top-top="opacity:0; right: -300px;"
-                                    data-<?=$animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
+                                    data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
+                                    data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="http://fb.me/eziospray" class="uk-overlay" target="_blank">
@@ -578,8 +578,8 @@
                                 <!--AVATAR [Wayne]-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
-                                    data-<?=$animStart($mambers);?>-top-top="opacity:0; right: -300px;"
-                                    data-<?=$animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
+                                    data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
+                                    data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="http://www.jungwei.tw/brucewayne/" class="uk-overlay" target="_blank">
@@ -600,8 +600,8 @@
                                 <!--AVATAR [Lucia]-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
-                                    data-<?=$animStart($mambers);?>-top-top="opacity:0; right: -300px;"
-                                    data-<?=$animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
+                                    data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
+                                    data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="http://fb.me/lucia.yu.98" class="uk-overlay" target="_blank">
@@ -634,8 +634,8 @@
                                 <!--AVATAR [Pearl]-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
-                                    data-<?=$animStart($mambers);?>-top-top="opacity:0; right: -300px;"
-                                    data-<?=$animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
+                                    data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
+                                    data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="http://fb.me/shihpearl" class="uk-overlay" target="_blank">
@@ -656,8 +656,8 @@
                                 <!--AVATAR []-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
-                                    data-<?=$animStart($mambers);?>-top-top="opacity:0; right: -300px;"
-                                    data-<?=$animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
+                                    data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
+                                    data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
@@ -678,8 +678,8 @@
                                 <!--AVATAR []-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
-                                    data-<?=$animStart($mambers);?>-top-top="opacity:0; right: -300px;"
-                                    data-<?=$animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
+                                    data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
+                                    data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
@@ -700,8 +700,8 @@
                                 <!--AVATAR []-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
-                                    data-<?=$animStart($mambers);?>-top-top="opacity:0; right: -300px;"
-                                    data-<?=$animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
+                                    data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
+                                    data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
@@ -722,8 +722,8 @@
                                 <!--AVATAR []-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
-                                    data-<?=$animStart($mambers);?>-top-top="opacity:0; right: -300px;"
-                                    data-<?=$animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
+                                    data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
+                                    data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
