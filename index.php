@@ -736,7 +736,7 @@
                                     </figure>
                                     <figcaption class="">
                                         <h3>
-                                            Bension Liu
+                                            Benson Lu
                                         </h3>
                                         <small>
                                             Front-End Engineer
