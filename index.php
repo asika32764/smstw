@@ -685,7 +685,7 @@
                                     data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
-                                        <a href="http://plurk.com.tw/GourryMK2" class="uk-overlay" target="_blank">
+                                        <a href="http://www.plurk.com/GourryMK2" class="uk-overlay" target="_blank">
                                             <img src="images/mambers/leo-avatar.jpg" alt="avatar" class="member-avatar" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
