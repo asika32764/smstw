@@ -542,7 +542,7 @@
                                     data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
-                                        <a href="http://fb.me/YuMinLai.tw" class="uk-overlay" target="_blank">
+                                        <a href="https://twitter.com/Infinity_Lai" class="uk-overlay" target="_blank">
                                             <img src="images/mambers/infinity-avatar.jpg" alt="avatar" class="member-avatar" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
@@ -564,7 +564,7 @@
                                     data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
-                                        <a href="http://fb.me/eziospray" class="uk-overlay" target="_blank">
+                                        <a href="http://about.me/asika" class="uk-overlay" target="_blank">
                                             <img src="images/mambers/asika-avatar.jpg" alt="avatar" class="member-avatar" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
@@ -663,7 +663,7 @@
                                     data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
-                                        <a href="#contact" class="uk-overlay" target="_blank">
+                                        <a href="http://about.me/peggylo" class="uk-overlay" target="_blank">
                                             <img src="images/mambers/peggy-avatar.jpg" alt="avatar" class="member-avatar" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
@@ -685,7 +685,7 @@
                                     data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
-                                        <a href="#contact" class="uk-overlay" target="_blank">
+                                        <a href="http://www.plurk.com/GourryMK2" class="uk-overlay" target="_blank">
                                             <img src="images/mambers/leo-avatar.jpg" alt="avatar" class="member-avatar" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
@@ -707,7 +707,7 @@
                                     data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
-                                        <a href="#contact" class="uk-overlay" target="_blank">
+                                        <a href="http://coding.memory-forest.com/" class="uk-overlay" target="_blank">
                                             <img src="images/mambers/michael-avatar.jpg" alt="avatar" class="member-avatar" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
@@ -729,14 +729,14 @@
                                     data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
-                                        <a href="#contact" class="uk-overlay" target="_blank">
+                                        <a href="http://llwbenson.er-webs.com/" class="uk-overlay" target="_blank">
                                             <img src="images/mambers/benson-avatar.jpg" alt="avatar" class="member-avatar" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
                                     <figcaption class="">
                                         <h3>
-                                            Bension Liu
+                                            Benson Lu
                                         </h3>
                                         <small>
                                             Front-End Engineer
@@ -765,7 +765,7 @@
                                     data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
-                                        <a href="http://fb.me/shihpearl" class="uk-overlay" target="_blank">
+                                        <a href="http://fb.me/lewis.jang" class="uk-overlay" target="_blank">
                                             <img src="images/mambers/lewis-avatar.jpg" alt="avatar" class="member-avatar" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
