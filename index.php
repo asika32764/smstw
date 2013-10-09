@@ -1084,14 +1084,14 @@
                         </header>
                         <article>
                             <p>
-                                <i class="uk-icon-phone uk-icon-small"></i> Tel: +886-2-2756-0158 / Fax: +886-2-2760-5895
+                                <i class="uk-icon-phone uk-icon-small"></i> Tel: +886-2-2756-0158 / Fax: +886-2-2742-2677
                             </p>
                             <p>
-                                <i class="uk-icon-home uk-icon-small"></i> 台北市松山區南京東路五段356號15樓之1
+                                <i class="uk-icon-home uk-icon-small"></i> 台北市松山區基隆路一段40號10樓
                                 <a href="http://goo.gl/2UkkNP" target="_blank"><i class="uk-icon-map-marker"></i> Google map</a>
                             </p>
                             <p>
-                                <i class="uk-icon-home uk-icon-small"></i> 15F-1, 356 SEC. 5, Nan-Jing East Rd. Taipei, Taiwan 105
+                                <i class="uk-icon-home uk-icon-small"></i> 10F., No.40, Sec. 1, Keelung Rd., Songshan Dist., Taipei City 10566, Taiwan (R.O.C.)
                                 <a href="http://goo.gl/e4aD8p" target="_blank"><i class="uk-icon-map-marker"></i> Google map</a>
                             </p>
                             <p>
