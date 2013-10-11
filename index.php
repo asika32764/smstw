@@ -38,9 +38,11 @@
         
         <link rel="stylesheet" href="css/main.min.css" />
         <?php endif;?>
-        <?php if($debug) : ?>
         
         <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+        
+        <?php if($debug) : ?>
+        
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script src="js/jquery-scrollspy.js"></script>
         <script src="js/jquery.smooth-scroll.js"></script>
