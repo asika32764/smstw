@@ -552,7 +552,7 @@
                                             Infinity Lai
                                         </h3>
                                         <small>
-                                            Consultant & SR-Developer
+                                            CCO & SR-DEVELOPER
                                         </small>
                                     </figcaption>
                                 </div>
