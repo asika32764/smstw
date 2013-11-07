@@ -57,7 +57,6 @@
         
     </head>
     <body id="top"  sr-scrollspy="{repeat: true}">
-        
         <!--HEADER START-->
         <header id="sr-header">
             <nav id="sr-nav" class="uk-">
@@ -1150,7 +1149,7 @@
             m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
             })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
           
-            ga('create', 'UA-34403387-4', 'bm-sms.com.tw');
+            ga('create', 'UA-45319559-1', 'bm-sms.com.tw');
             ga('send', 'pageview');  
         </script>  
     </body> 
