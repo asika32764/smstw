@@ -1089,11 +1089,11 @@
                             </p>
                             <p>
                                 <i class="uk-icon-home uk-icon-small"></i> 台北市松山區基隆路一段40號10樓
-                                <a href="http://goo.gl/2UkkNP" target="_blank"><i class="uk-icon-map-marker"></i> Google map</a>
+                                <a href="http://goo.gl/WfLau0" target="_blank"><i class="uk-icon-map-marker"></i> Google map</a>
                             </p>
                             <p>
                                 <i class="uk-icon-home uk-icon-small"></i> 10F., No.40, Sec. 1, Keelung Rd., Songshan Dist., Taipei City 10566, Taiwan (R.O.C.)
-                                <a href="http://goo.gl/e4aD8p" target="_blank"><i class="uk-icon-map-marker"></i> Google map</a>
+                                <a href="http://goo.gl/eb5s52" target="_blank"><i class="uk-icon-map-marker"></i> Google map</a>
                             </p>
                             <p>
                                 <i class="uk-icon-envelope uk-icon-small"></i> service@bm-sms.com.tw

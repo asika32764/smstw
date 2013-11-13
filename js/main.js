@@ -9,7 +9,8 @@ var debug = false ;
 
 // Option
 var option = {
-    address : '臺北市松山區南京東路五段356號15樓之1' 
+    address : '25.049899, 121.5694537',
+    label: '台北市松山區基隆路一段40號10樓'
 };
 
 // SMS Object
@@ -141,7 +142,7 @@ var SMS = ({
                 },
                 marker: {
                     values:[
-                        {address:address, data: address}
+                        {address:option.address, data: option.label}
                     ],
                     events:{
                         mouseover: function(marker, event, context){
