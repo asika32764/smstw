@@ -450,8 +450,8 @@
                                 <div
                                     class="works-thumb uk-width-large-1-3"
                                 >
-                                    <a href="http://www.pharmjob.com.tw/" target="_blank">
-                                        <img src="images/works/pharmjob.png" alt="works">
+                                    <a href="http://www.paycare.com.tw" target="_blank">
+                                        <img src="images/works/paycare.png" alt="works">
                                     </a>
                                 </div>
                             </div>
@@ -466,7 +466,7 @@
                                 <div
                                     class="works-thumb uk-width-large-1-3"
                                 >
-                                    <a href="http://www.cocoyaku.com.tw/%E8%97%A5%E5%93%81%E4%BA%A4%E4%BA%92%E4%BD%9C%E7%94%A8%E6%9F%A5%E8%A9%A2" target="_blank">
+                                    <a href="http://www.ddicheck.com" target="_blank">
                                         <img src="images/works/ddi.png" alt="works">
                                     </a>
                                 </div>
@@ -553,7 +553,7 @@
                                             Infinity Lai
                                         </h3>
                                         <small>
-                                            CCO & SR-DEVELOPER
+                                            COO & SR-DEVELOPER
                                         </small>
                                     </figcaption>
                                 </div>
