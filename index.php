@@ -12,7 +12,7 @@
         <meta name="description"        content="我們是知恩思資訊股份有限公司，日商 SMS 在台灣的分公司，致力於為高齡化社會中的3個領域
                                                  醫療・長照・銀髮族(active senior) 和3種服務對象 企業・從業者・消費者
                                                  提供所需的信息服務與平台，以此為社會長期持續創造價值。" />
-        
+
         <meta property="og:image"       content="http://bm-sms.com.tw/images/sms-logo-white.jpg"/>
         <meta property="og:url"         content="http://bm-sms.com.tw"/>
         <meta property="og:title"       content="SMS Taiwan 知恩思資訊股份有限公司"/>
@@ -21,28 +21,28 @@
         <meta property="og:description" content="我們是知恩思資訊股份有限公司，日商 SMS 在台灣的分公司，致力於為高齡化社會中的3個領域
                                                  醫療・長照・銀髮族(active senior) 和3種服務對象 企業・從業者・消費者
                                                  提供所需的信息服務與平台，以此為社會長期持續創造價值。"/>
-        
+
         <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
-        
+
         <title>SMS Taiwan 知恩思資訊資訊股份有限公司</title>
-        
+
         <?php if($debug) : ?>
-        
+
         <link href='http://fonts.googleapis.com/css?family=Cuprum:400' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
-        
+
         <link rel="stylesheet" href="css/uikit.min.css" />
         <link rel="stylesheet" href="css/main.css" />
         <?php else:?>
-        
+
         <link rel="stylesheet" href="css/main.min.css" />
         <?php endif;?>
-        
+
         <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
-        
+
         <?php if($debug) : ?>
-        
+
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script src="js/jquery-scrollspy.js"></script>
         <script src="js/jquery.smooth-scroll.js"></script>
@@ -51,10 +51,10 @@
         <script src="js/gmap3.min.js"></script>
         <script src="js/main.js"></script>
         <?php else:?>
-        
+
         <script src="js/main.min.js"></script>
         <?php endif;?>
-        
+
     </head>
     <body id="top"  sr-scrollspy="{repeat: true}">
         <!--HEADER START-->
@@ -69,14 +69,14 @@
                             </a>
                         </h1>
                     </div>
-                    
+
                     <div class="ul-navbar uk-hidden-small">
                         <h1 id="sr-logo" class="uk-navbar-brand">
                             <a href="#top">
                                 SMS Taiwan
                             </a>
                         </h1>
-                        
+
                         <ul id="sr-nav" class="uk-navbar-nav uk-float-right">
                             <li><a href="#about">About</a></li>
                             <li><a href="#features" >Features</a></li>
@@ -87,7 +87,7 @@
                         </ul>
                     </div>
                 </div>
-                
+
                 <div id="mobile-menu" class="uk-offcanvas">
                     <div class="uk-offcanvas-bar">
                         <ul id="sr-nav" class="uk-nav uk-nav-offcanvas uk-nav-parent-icon">
@@ -97,21 +97,21 @@
                             <li><a href="#members" >Members</a></li>
                             <!--<li><a href="#recruiting" >Recruiting</a></li>-->
                             <li><a href="#contact" >Contact Us</a></li>
-                        </ul>    
+                        </ul>
                     </div>
                 </div>
             </nav>
         </header>
         <!--HEADER END-->
-        
-        
-        
+
+
+
         <!--BANNER START-->
         <section id="sr-banner">
             <div id="sr-banner-inner" class="uk-grid">
                 <div class="uk-container uk-container-center">
                     <div id="sr-banner-title-wrap" class="uk-width-large-5-6 uk-container-center uk-vertical-align uk-text-center">
-                        
+
                         <div class="uk-vertical-align-middle">
                             <h1 class="sr-banner-title" data-500-end="bottom: 2500px;" data-0-start="bottom: 0px;">
                                 Create Value Contribution to Aged Society.
@@ -126,15 +126,15 @@
                                 <!--提供適合高齡社會的資訊媒體，持續創造價值貢獻於社會。-->
                             </h3>
                         </div>
-                        
-                    </div>  
+
+                    </div>
                 </div>
             </div>
         </section>
         <!--BANNER END-->
-        
-        
-        
+
+
+
         <!--ABOUT START-->
         <section id="about" sr-scrollspy="{repeat: true}">
             <div id="sr-about" class="uk-container uk-container-center sr-container">
@@ -155,7 +155,7 @@
                                         width="300" height="180"
                                         data-100="left:-300px;opacity:0;" data-500="left:0px; opacity:1;"
                                     />
-                                    
+
                                     <img class="" src="images/about/ihealth-logo-300.png" alt="iHealth" style="margin: 0 30px;"
                                         data-100="right:-300px;opacity:0;" data-500="right:0px; opacity:1;"
                                     />
@@ -214,19 +214,19 @@
                                     </p>
                                     <div id="sr-about-ppt" class="ajax-loader">
                                         <img src="images/about/ppt.png" alt="PPT" width="760" height="490" style="cursor: pointer;" />
-                                    </div>  
+                                    </div>
                                 </div>
                             </div>
-                        </article>  
+                        </article>
                     </div>
                 </div>
-                
+
             </div>
         </section>
         <!--ABOUT END-->
-        
-        
-        
+
+
+
         <!--FEATURES START-->
         <section id="features" class="bg-white" sr-scrollspy="{repeat: true}">
             <div id="sr-features" class="uk-container uk-container-center sr-container">
@@ -248,18 +248,18 @@
                                     'duration'  => -130,
                                     'current'   => 1,
                                 );
-                                
+
                                 $feature_text = array(
                                     'begin'     => 350,
                                     'add'       => -100,
                                     'duration'  => -150,
                                     'current'   => 1,
                                 );
-                                
+
                                 $actionStart = 'opacity:0; transform: scale(0);';
                                 $actionEnd   = 'opacity:1; transform: scale(1);';
                             ?>
-                            
+
                             <div class="uk-grid">
                                 <div class="uk-width-large-1-3">
                                     <p class="uk-text-center">
@@ -284,7 +284,7 @@
                                         <p class="uk-text-justify">
                                             我們是世界級的 Joomla! CMS 與 Joomla!Framework 開發團隊，由前飛鳥工作室技術長Asika領軍，
                                             具有開發商業應用元件與網站的大量經驗，目前是國內唯一有能力在全球銷售 Joomla! 商用套件的團隊。
-                                        </p>    
+                                        </p>
                                     </div>
                                 </div>
                                 <div class="uk-width-large-1-3">
@@ -362,35 +362,35 @@
                                             <img src="images/tech/php.png" alt="php"/>
                                         </p>
                                     </div>
-                                    
+
                                     <!--MYSQL-->
                                     <div class="uk-width-large-1-6" data-1150="opacity:0;" data-1350="opacity:1;">
                                         <p class="uk-text-center">
                                             <img src="images/tech/mysql.png" alt="php"/>
                                         </p>
                                     </div>
-                                    
+
                                     <!--AMAZON-->
                                     <div class="uk-width-large-1-6" data-1150="opacity:0;" data-1350="opacity:1;">
                                         <p class="uk-text-center">
                                             <img src="images/tech/amazon.png" alt="php"/>
                                         </p>
                                     </div>
-                                    
+
                                     <!--AZURE-->
                                     <div class="uk-width-large-1-6" data-1150="opacity:0;" data-1350="opacity:1;">
                                         <p class="uk-text-center">
                                             <img src="images/tech/azure.png" alt="php"/>
                                         </p>
                                     </div>
-                                    
+
                                     <!--SYMFONY-->
                                     <div class="uk-width-large-1-6" data-1150="opacity:0;" data-1350="opacity:1;">
                                         <p class="uk-text-center">
                                             <img src="images/tech/symfony.png" alt="php"/>
                                         </p>
                                     </div>
-                                    
+
                                     <!--MOOTOOLS-->
                                     <div class="uk-width-large-1-6" data-1150="opacity:0;" data-1350="opacity:1;">
                                         <p class="uk-text-center">
@@ -399,16 +399,16 @@
                                     </div>
                                 </div>
                             </div>
-                        </article>  
+                        </article>
                     </div>
                 </div>
-                
+
             </div>
         </section>
         <!--FEATURES END-->
-        
-        
-        
+
+
+
         <!--PROJECT START-->
         <section id="works" sr-scrollspy="{repeat: true}">
             <div id="sr-works" class="uk-container uk-container-center sr-container">
@@ -431,7 +431,7 @@
                                     'current'   => 1,
                                 );
                             ?>
-                            
+
                             <div class="uk-grid">
                                 <div
                                     class="works-thumb uk-width-large-1-3"
@@ -478,16 +478,16 @@
                                     </a>
                                 </div>
                             </div>
-                        </article>  
+                        </article>
                     </div>
                 </div>
-                
+
             </div>
         </section>
         <!--PROJECT END-->
-        
-        
-        
+
+
+
         <!--TEAM START-->
         <section id="members" class="bg-white" sr-scrollspy="{repeat: true}">
             <div id="sr-members" class="uk-container uk-container-center sr-container">
@@ -502,7 +502,6 @@
                             </h2>
                         </header>
                         <article>
-                            
                             <!-- Row 1 -->
                             <div class="uk-grid">
                                 <?php
@@ -513,7 +512,7 @@
                                         'current'   => 1,
                                     );
                                 ?>
-                                
+
                                 <!--AVATAR [Johnny]-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
@@ -535,7 +534,7 @@
                                         </small>
                                     </figcaption>
                                 </div>
-                                
+
                                 <!--AVATAR [Infinity]-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
@@ -557,7 +556,7 @@
                                         </small>
                                     </figcaption>
                                 </div>
-                                
+
                                 <!--AVATAR [Asika]-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
@@ -577,7 +576,7 @@
                                         </small>
                                     </figcaption>
                                 </div>
-                                
+
                                 <!--AVATAR [Wayne]-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
@@ -599,7 +598,7 @@
                                         </small>
                                     </figcaption>
                                 </div>
-                                
+
                                 <!--AVATAR [Lucia]-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
@@ -622,7 +621,7 @@
                                     </figcaption>
                                 </div>
                             </div>
-                            
+
                             <!-- Row 2 -->
                             <div class="uk-grid">
                                 <?php
@@ -633,8 +632,8 @@
                                         'current'   => 1,
                                     );
                                 ?>
-                                
-                                
+
+
                                 <!--AVATAR [Pearl]-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
@@ -656,7 +655,7 @@
                                         </small>
                                     </figcaption>
                                 </div>
-                                
+
                                 <!--AVATAR [Peggy]-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
@@ -678,7 +677,7 @@
                                         </small>
                                     </figcaption>
                                 </div>
-                                
+
                                 <!--AVATAR [Leo]-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
@@ -700,7 +699,7 @@
                                         </small>
                                     </figcaption>
                                 </div>
-                                
+
                                 <!--AVATAR [Michael]-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
@@ -722,7 +721,7 @@
                                         </small>
                                     </figcaption>
                                 </div>
-                                
+
                                 <!--AVATAR [Benson]-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
@@ -744,9 +743,9 @@
                                         </small>
                                     </figcaption>
                                 </div>
-                                
+
                             </div>
-                            
+
                             <!-- Row 3 -->
                             <div class="uk-grid">
                                 <?php
@@ -757,8 +756,8 @@
                                         'current'   => 1,
                                     );
                                 ?>
-                                
-                                
+
+
                                 <!--AVATAR [Lewis]-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
@@ -780,7 +779,7 @@
                                         </small>
                                     </figcaption>
                                 </div>
-                                
+
                                 <!--AVATAR [Tim]-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
@@ -804,26 +803,26 @@
                                 </div>
 
 								<!--AVATAR [Suno]-->
-								<div class="member-info uk-width-large-1-5"
-									data-anchor-target="#members"
-									data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
-									data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
-									>
-									<figure class="uk-margin-bottom">
-										<a href="https://www.facebook.com/suno.huang" class="uk-overlay" target="_blank">
-											<img src="images/mambers/suno-avatar.jpg" alt="avatar" class="member-avatar" />
-											<div class="uk-overlay-area"></div>
-										</a>
-									</figure>
-									<figcaption class="">
-										<h3>
-											Suno Huang
-										</h3>
-										<small>
-											Product Manager
-										</small>
-									</figcaption>
-								</div>
+                                <div class="member-info uk-width-large-1-5"
+                                    data-anchor-target="#members"
+                                    data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
+                                    data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
+                                    >
+                                    <figure class="uk-margin-bottom">
+                                        <a href="https://www.facebook.com/suno.huang" class="uk-overlay" target="_blank">
+                                            <img src="images/mambers/suno-avatar.jpg" alt="avatar" class="member-avatar" />
+                                            <div class="uk-overlay-area"></div>
+                                        </a>
+                                    </figure>
+                                    <figcaption class="">
+                                        <h3>
+                                            Suno Huang
+                                        </h3>
+                                        <small>
+                                            Product Manager
+                                        </small>
+                                    </figcaption>
+                                </div>
 
                                 <!--AVATAR []-->
                                 <!--<div class="member-info uk-width-large-1-5"
@@ -846,7 +845,7 @@
                                         </small>
                                     </figcaption>
                                 </div>-->
-                                
+
                                 <!--AVATAR []-->
                                 <!--<div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
@@ -868,7 +867,7 @@
                                         </small>
                                     </figcaption>
                                 </div>-->
-                                
+
                                 <!--AVATAR []-->
                                 <!--<div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
@@ -890,19 +889,14 @@
                                         </small>
                                     </figcaption>
                                 </div>-->
-                                
                             </div>
-                            
-                        </article>  
+                        </article>
                     </div>
                 </div>
-                
             </div>
         </section>
         <!--TEAM END-->
-        
-        
-        
+
         <!--RECRUIT START-->
         <!--<section id="recruiting" sr-scrollspy="{repeat: true}">
             <div id="sr-example" class="uk-container uk-container-center sr-container">
@@ -922,9 +916,9 @@
                                     <header>
                                         <h2>
                                             PHP Developer / PHP 後端工程師
-                                        </h2>   
+                                        </h2>
                                     </header>
-                                    
+
                                     <article>
                                         <h3>工作能力需求</h3>
                                         <ul>
@@ -934,7 +928,7 @@
                                             <li>擅於與團隊溝通，相互瞭解開發狀況</li>
                                             <li>邏輯性強，對新技術研究有熱情</li>
                                         </ul>
-                                        
+
                                         <h3>加分技能</h3>
                                         <ul>
                                             <li>懂版本控制 Git</li>
@@ -956,10 +950,10 @@
                                     <header>
                                         <h2>
                                             Front-End Engineer / 前端工程師
-                                        </h2>   
+                                        </h2>
                                     </header>
-                                    
-                                    <article>                                        
+
+                                    <article>
                                         <h3>工作能力需求</h3>
                                         <ul>
                                             <li>一年以上前端工程 (HTML, CSS, JS) 開發經驗</li>
@@ -969,7 +963,7 @@
                                             <li>擅於與團隊溝通，相互瞭解開發狀況</li>
                                             <li>邏輯性強，對新技術研究有熱情</li>
                                         </ul>
-                                        
+
                                         <h3>加分技能</h3>
                                         <ul>
                                             <li>懂版本控制 Git</li>
@@ -987,15 +981,15 @@
                                     </article>
                                 </div>
                             </div>
-                            
+
                             <div class="uk-grid">
                                 <div class="uk-width-large-1-2">
                                     <header>
                                         <h2>
                                             PHP Test Engineer / PHP 測試工程師
-                                        </h2>   
+                                        </h2>
                                     </header>
-                                    
+
                                     <article>
                                         <h3>工作能力需求</h3>
                                         <ul>
@@ -1008,7 +1002,7 @@
                                             <li>懂版本控制 Git</li>
                                             <li>曾使用過 MVC 開發框架</li>
                                         </ul>
-                                        
+
                                         <h3>加分技能</h3>
                                         <ul>
                                             <li>瞭解 PHP 效能調校</li>
@@ -1027,10 +1021,10 @@
                                     <header>
                                         <h2>
                                             SQL & Software Engineer / 資料庫與軟體工程師
-                                        </h2>   
+                                        </h2>
                                     </header>
-                                    
-                                    <article>                                        
+
+                                    <article>
                                         <h3>工作能力需求</h3>
                                         <ul>
                                             <li>二年以上 PHP 網路系統開發經驗</li>
@@ -1043,7 +1037,7 @@
                                             <li>擅於與團隊溝通，相互瞭解開發狀況</li>
                                             <li>邏輯性強，對新技術研究有熱情</li>
                                         </ul>
-                                        
+
                                         <h3>加分技能</h3>
                                         <ul>
                                             <li>瞭解 PHP 效能調校</li>
@@ -1068,27 +1062,25 @@
                                         應徵方式
                                     </h3>
                                     <p>
-                                        請備妥履歷、作品、自傳等資料，寄至 service@bm-sms.com.tw ，信件主旨請打：[應徵] 職位 - 姓名。 
+                                        請備妥履歷、作品、自傳等資料，寄至 service@bm-sms.com.tw ，信件主旨請打：[應徵] 職位 - 姓名。
                                     </p>
                                 </div>
                             </div>
                         </section>
                     </div>
                 </div>
-                
+
             </div>
         </section>-->
         <!--RECRUIT END-->
-        
-        
-        
+
         <!--CONTRACT START-->
         <section id="contact" class="bg-white" sr-scrollspy="{repeat: true}" style="overflow: hidden;">
             <!--GOOGLE MAP-->
             <div id="contact-map">
-                
+
             </div>
-            
+
             <!--CONTACT BOX-->
             <div id="sr-contact" class="uk-container uk-container-center sr-container">
                 <div id="sr-contact-grid" class="uk-grid">
@@ -1120,16 +1112,13 @@
                             <p>
                                 <i class="uk-icon-envelope uk-icon-small"></i> service@bm-sms.com.tw
                             </p>
-                        </article>  
+                        </article>
                     </div>
                 </div>
-                
             </div>
         </section>
         <!--CONTRACT END-->
-        
-        
-        
+
         <!--FOOTER START-->
         <footer id="footer" class="bg-white">
             <div id="sr-footer" class="uk-container uk-container-center sr-container">
@@ -1137,42 +1126,40 @@
                     <div class="uk-width-large-2-5">
                             SMS Taiwan Copyright (C) SMS Consulting Service Co.,Ltd.
                     </div>
-                    
                     <div class="uk-width-large-3-5 uk-text-right">
-                            <a href="http://bm-sms.co.jp/" target="_blank">
-                                Japan
-                            </a>
-                            |
-                            <a href="http://cn.bm-sms.asia/" target="_blank">
-                                China
-                            </a>
-                            |
-                            <a href="http://kr.bm-sms.asia/" target="_blank">
-                                Korea
-                            </a>
-                            |
-                            <a href="http://id.bm-sms.asia/" target="_blank">
-                                Indonesia
-                            </a>
-                            |
-                            <a href="http://my.bm-sms.asia/" target="_blank">
-                                Malaysia
-                            </a>
+						<a href="http://bm-sms.co.jp/" target="_blank">
+							Japan
+						</a>
+						|
+						<a href="http://cn.bm-sms.asia/" target="_blank">
+							China
+						</a>
+						|
+						<a href="http://kr.bm-sms.asia/" target="_blank">
+							Korea
+						</a>
+						|
+						<a href="http://id.bm-sms.asia/" target="_blank">
+							Indonesia
+						</a>
+						|
+						<a href="http://my.bm-sms.asia/" target="_blank">
+							Malaysia
+						</a>
                     </div>
                 </div>
-                
             </div>
         </footer>
         <!--FOOTER END-->
-        
+
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
             m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
             })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-          
+
             ga('create', 'UA-45319559-1', 'bm-sms.com.tw');
-            ga('send', 'pageview');  
-        </script>  
-    </body> 
+            ga('send', 'pageview');
+        </script>
+    </body>
 </html>
