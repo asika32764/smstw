@@ -473,8 +473,8 @@
                                 <div
                                     class="works-thumb uk-width-large-1-3"
                                 >
-                                    <a href="http://ext.asikart.com" target="_blank">
-                                        <img src="images/works/asikart.png" alt="works">
+                                    <a href="http://www.carejob.com.tw/" target="_blank">
+                                        <img src="images/works/carejob-logo.png" alt="works">
                                     </a>
                                 </div>
                             </div>
@@ -802,7 +802,7 @@
                                         </small>
                                     </figcaption>
                                 </div>
-                                
+								
                                 <!--AVATAR []-->
                                 <!--<div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
