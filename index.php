@@ -1127,25 +1127,25 @@
                             SMS Taiwan Copyright (C) SMS Consulting Service Co.,Ltd.
                     </div>
                     <div class="uk-width-large-3-5 uk-text-right">
-						<a href="http://bm-sms.co.jp/" target="_blank">
-							Japan
-						</a>
-						|
-						<a href="http://cn.bm-sms.asia/" target="_blank">
-							China
-						</a>
-						|
-						<a href="http://kr.bm-sms.asia/" target="_blank">
-							Korea
-						</a>
-						|
-						<a href="http://id.bm-sms.asia/" target="_blank">
-							Indonesia
-						</a>
-						|
-						<a href="http://my.bm-sms.asia/" target="_blank">
-							Malaysia
-						</a>
+                        <a href="http://bm-sms.co.jp/" target="_blank">
+                            Japan
+                        </a>
+                        |
+                        <a href="http://cn.bm-sms.asia/" target="_blank">
+                            China
+                        </a>
+                        |
+                        <a href="http://kr.bm-sms.asia/" target="_blank">
+                            Korea
+                        </a>
+                        |
+                        <a href="http://id.bm-sms.asia/" target="_blank">
+                            Indonesia
+                        </a>
+                        |
+                        <a href="http://my.bm-sms.asia/" target="_blank">
+                            Malaysia
+                        </a>
                     </div>
                 </div>
             </div>
