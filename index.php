@@ -738,7 +738,7 @@
                                     </figure>
                                     <figcaption class="">
                                         <h3>
-                                            Omo Li
+                                            Omo Lee
                                         </h3>
                                         <small>
                                             Marketing
