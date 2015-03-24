@@ -478,6 +478,15 @@
                                     </a>
                                 </div>
                             </div>
+                            <div class="uk-grid">
+                                <div
+                                    class="works-thumb uk-width-large-1-3"
+                                >
+                                    <a href="http://www.surelife.com.tw/" target="_blank">
+                                        <img src="images/works/surelife.jpg" alt="works">
+                                    </a>
+                                </div>
+                            </div>
                         </article>
                     </div>
                 </div>
