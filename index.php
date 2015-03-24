@@ -876,28 +876,6 @@
                                     </figcaption>
                                 </div>
 
-                                <!--AVATAR [Hua Hua]-->
-                                <div class="member-info uk-width-large-1-5"
-                                     data-anchor-target="#members"
-                                     data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
-                                     data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
-                                    >
-                                    <figure class="uk-margin-bottom">
-                                        <a href="#contact" class="uk-overlay" target="_blank">
-                                            <img src="images/mambers/hua-hua-avatar.jpg" alt="avatar" class="member-avatar" />
-                                            <div class="uk-overlay-area"></div>
-                                        </a>
-                                    </figure>
-                                    <figcaption class="">
-                                        <h3>
-                                            Hua Hua
-                                        </h3>
-                                        <small>
-                                            Healing
-                                        </small>
-                                    </figcaption>
-                                </div>
-
 
 
                                 <!--AVATAR []-->
@@ -977,6 +955,29 @@
                                     'current'   => 1,
                                 );
                                 ?>
+
+                                <!--AVATAR [Hua Hua]-->
+                                <div class="member-info uk-width-large-1-5"
+                                     data-anchor-target="#members"
+                                     data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
+                                     data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
+                                    >
+                                    <figure class="uk-margin-bottom">
+                                        <a href="#contact" class="uk-overlay" target="_blank">
+                                            <img src="images/mambers/hua-hua-avatar.jpg" alt="avatar" class="member-avatar" />
+                                            <div class="uk-overlay-area"></div>
+                                        </a>
+                                    </figure>
+                                    <figcaption class="">
+                                        <h3>
+                                            Hua Hua
+                                        </h3>
+                                        <small>
+                                            Healing
+                                        </small>
+                                    </figcaption>
+                                </div>
+
                                 <!--AVATAR [La La]-->
                                 <div class="member-info uk-width-large-1-5"
                                      data-anchor-target="#members"
@@ -1065,28 +1066,6 @@
                                     </figcaption>
                                 </div>
 
-                                <!--AVATAR [Pi Pi]-->
-                                <div class="member-info uk-width-large-1-5"
-                                     data-anchor-target="#members"
-                                     data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
-                                     data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
-                                    >
-                                    <figure class="uk-margin-bottom">
-                                        <a href="#contact" class="uk-overlay" target="_blank">
-                                            <img src="images/mambers/pi-pi-avatar.jpg" alt="avatar" class="member-avatar" />
-                                            <div class="uk-overlay-area"></div>
-                                        </a>
-                                    </figure>
-                                    <figcaption class="">
-                                        <h3>
-                                            Pi Pi
-                                        </h3>
-                                        <small>
-                                            Healing
-                                        </small>
-                                    </figcaption>
-                                </div>
-
 
                                 <!--AVATAR []-->
                                 <!--<div class="member-info uk-width-large-1-5"
@@ -1143,6 +1122,28 @@
                                     'current'   => 1,
                                 );
                                 ?>
+
+                                <!--AVATAR [Pi Pi]-->
+                                <div class="member-info uk-width-large-1-5"
+                                     data-anchor-target="#members"
+                                     data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
+                                     data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
+                                    >
+                                    <figure class="uk-margin-bottom">
+                                        <a href="#contact" class="uk-overlay" target="_blank">
+                                            <img src="images/mambers/pi-pi-avatar.jpg" alt="avatar" class="member-avatar" />
+                                            <div class="uk-overlay-area"></div>
+                                        </a>
+                                    </figure>
+                                    <figcaption class="">
+                                        <h3>
+                                            Pi Pi
+                                        </h3>
+                                        <small>
+                                            Healing
+                                        </small>
+                                    </figcaption>
+                                </div>
 
                                 <!--AVATAR [Moritann]-->
                                 <div class="member-info uk-width-large-1-5"
