@@ -780,7 +780,7 @@
                                     </figure>
                                     <figcaption class="">
                                         <h3>
-                                            Steven
+                                            Steven Chen
                                         </h3>
                                         <small>
                                             Software developer
