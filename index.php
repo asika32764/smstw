@@ -766,6 +766,28 @@
                                         'current'   => 1,
                                     );
                                 ?>
+                                <!--AVATAR [Steven]-->
+                                <div class="member-info uk-width-large-1-5"
+                                    data-anchor-target="#members"
+                                    data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
+                                    data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
+                                >
+                                    <figure class="uk-margin-bottom">
+                                        <a href="https://www.facebook.com/bingsheng.chen" class="uk-overlay" target="_blank">
+                                            <img src="images/mambers/steven-avatar.jpg" alt="avatar" class="member-avatar" />
+                                            <div class="uk-overlay-area"></div>
+                                        </a>
+                                    </figure>
+                                    <figcaption class="">
+                                        <h3>
+                                            Steven
+                                        </h3>
+                                        <small>
+                                            Software developer
+                                        </small>
+                                    </figcaption>
+                                </div>
+
                                 <!--AVATAR [Di Di]-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
