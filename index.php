@@ -711,28 +711,6 @@
                                     </figcaption>
                                 </div>
 
-                                <!--AVATAR [Suno]-->
-                                <div class="member-info uk-width-large-1-5"
-                                     data-anchor-target="#members"
-                                     data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
-                                     data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
-                                    >
-                                    <figure class="uk-margin-bottom">
-                                        <a href="https://www.facebook.com/suno.huang" class="uk-overlay" target="_blank">
-                                            <img src="images/mambers/suno-avatar.jpg" alt="avatar" class="member-avatar" />
-                                            <div class="uk-overlay-area"></div>
-                                        </a>
-                                    </figure>
-                                    <figcaption class="">
-                                        <h3>
-                                            Suno Huang
-                                        </h3>
-                                        <small>
-                                            Product Manager
-                                        </small>
-                                    </figcaption>
-                                </div>
-
                                 <!--AVATAR [OMO]-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
