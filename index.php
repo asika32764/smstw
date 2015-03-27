@@ -26,23 +26,20 @@
 
         <title>SMS Taiwan 知恩思資訊資訊股份有限公司</title>
 
-        <?php if($debug) : ?>
-
+        <?php if ($debug): ?>
         <link href='http://fonts.googleapis.com/css?family=Cuprum:400' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 
         <link rel="stylesheet" href="css/uikit.min.css" />
         <link rel="stylesheet" href="css/main.css" />
-        <?php else:?>
-
+        <?php else: ?>
         <link rel="stylesheet" href="css/main.min.css" />
-        <?php endif;?>
+        <?php endif; ?>
 
         <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
 
-        <?php if($debug) : ?>
-
+        <?php if ($debug): ?>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script src="js/jquery-scrollspy.js"></script>
         <script src="js/jquery.smooth-scroll.js"></script>
@@ -50,10 +47,9 @@
         <script src="js/uikit.js"></script>
         <script src="js/gmap3.min.js"></script>
         <script src="js/main.js"></script>
-        <?php else:?>
-
+        <?php else: ?>
         <script src="js/main.min.js"></script>
-        <?php endif;?>
+        <?php endif; ?>
 
     </head>
     <body id="top"  sr-scrollspy="{repeat: true}">
@@ -82,7 +78,9 @@
                             <li><a href="#features" >Features</a></li>
                             <li><a href="#works" >Works</a></li>
                             <li><a href="#members" >Members</a></li>
-                            <!--<li><a href="#recruiting" >Recruiting</a></li>-->
+<?php /*
+                            <li><a href="#recruiting" >Recruiting</a></li>
+*/ ?>
                             <li><a href="#contact" >Contact Us</a></li>
                         </ul>
                     </div>
@@ -95,7 +93,9 @@
                             <li><a href="#features" >Features</a></li>
                             <li><a href="#works" >Works</a></li>
                             <li><a href="#members" >Members</a></li>
-                            <!--<li><a href="#recruiting" >Recruiting</a></li>-->
+<?php /*
+							<li><a href="#recruiting" >Recruiting</a></li>
+*/ ?>
                             <li><a href="#contact" >Contact Us</a></li>
                         </ul>
                     </div>
@@ -111,7 +111,6 @@
             <div id="sr-banner-inner" class="uk-grid">
                 <div class="uk-container uk-container-center">
                     <div id="sr-banner-title-wrap" class="uk-width-large-5-6 uk-container-center uk-vertical-align uk-text-center">
-
                         <div class="uk-vertical-align-middle">
                             <h1 class="sr-banner-title" data-500-end="bottom: 2500px;" data-0-start="bottom: 0px;">
                                 Create Value Contribution to Aged Society.
@@ -122,11 +121,9 @@
                             </h2>
                             <h3 data-500-end="bottom: 1300px;" data-0-start="bottom: 0px;">
                                 Provide suitable information media for aged society
-                                <!--Provide suitable information media for aged society -->
                                 <!--提供適合高齡社會的資訊媒體，持續創造價值貢獻於社會。-->
                             </h3>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -148,15 +145,15 @@
                                 SMS Taiwan CO. LTD.
                             </h2>
                         </header>
-                        <article class="">
+                        <article>
                             <div class="uk-width-large-2-3 uk-container-center">
                                 <p class="uk-text-center">
-                                    <img class="" src="images/about/sms-logo-380.png" alt="SMS" style="margin: 0 30px;"
+                                    <img src="images/about/sms-logo-380.png" alt="SMS" style="margin: 0 30px;"
                                         width="300" height="180"
                                         data-100="left:-300px;opacity:0;" data-500="left:0px; opacity:1;"
                                     />
 
-                                    <img class="" src="images/about/ihealth-logo-300.png" alt="iHealth" style="margin: 0 30px;"
+                                    <img src="images/about/ihealth-logo-300.png" alt="iHealth" style="margin: 0 30px;"
                                         data-100="right:-300px;opacity:0;" data-500="right:0px; opacity:1;"
                                     />
                                 </p>
@@ -220,7 +217,6 @@
                         </article>
                     </div>
                 </div>
-
             </div>
         </section>
         <!--ABOUT END-->
@@ -240,20 +236,20 @@
                                 World-Class Information Technology Team
                             </h2>
                         </header>
-                        <article class="">
+                        <article>
                             <?php
                                 $feature_img = array(
-                                    'begin'     => 400,
-                                    'add'       => -50,
-                                    'duration'  => -130,
-                                    'current'   => 1,
+                                    'begin'    => 400,
+                                    'add'      => -50,
+                                    'duration' => -130,
+                                    'current'  => 1,
                                 );
 
                                 $feature_text = array(
-                                    'begin'     => 350,
-                                    'add'       => -100,
-                                    'duration'  => -150,
-                                    'current'   => 1,
+                                    'begin'    => 350,
+                                    'add'      => -100,
+                                    'duration' => -150,
+                                    'current'  => 1,
                                 );
 
                                 $actionStart = 'opacity:0; transform: scale(0);';
@@ -402,7 +398,6 @@
                         </article>
                     </div>
                 </div>
-
             </div>
         </section>
         <!--FEATURES END-->
@@ -433,55 +428,41 @@
                             ?>
 
                             <div class="uk-grid">
-                                <div
-                                    class="works-thumb uk-width-large-1-3"
-                                >
+                                <div class="works-thumb uk-width-large-1-3">
                                     <a href="http://www.ihealth.com.tw" target="_blank">
                                         <img src="images/works/ihealth.png" alt="works">
                                     </a>
                                 </div>
-                                <div
-                                    class="works-thumb uk-width-large-1-3"
-                                >
+                                <div class="works-thumb uk-width-large-1-3">
                                     <a href="http://www.cocoyaku.com.tw/" target="_blank">
                                         <img src="images/works/cocoyaku.png" alt="works">
                                     </a>
                                 </div>
-                                <div
-                                    class="works-thumb uk-width-large-1-3"
-                                >
+                                <div class="works-thumb uk-width-large-1-3">
                                     <a href="http://www.paycare.com.tw" target="_blank">
                                         <img src="images/works/paycare.png" alt="works">
                                     </a>
                                 </div>
                             </div>
                             <div class="uk-grid">
-                                <div
-                                    class="works-thumb uk-width-large-1-3"
-                                >
+                                <div class="works-thumb uk-width-large-1-3">
                                     <a href="http://www.bamahome.com.tw/" target="_blank">
                                         <img src="images/works/bamahome.png" alt="works">
                                     </a>
                                 </div>
-                                <div
-                                    class="works-thumb uk-width-large-1-3"
-                                >
+                                <div class="works-thumb uk-width-large-1-3">
                                     <a href="http://www.ddicheck.com" target="_blank">
                                         <img src="images/works/ddi.png" alt="works">
                                     </a>
                                 </div>
-                                <div
-                                    class="works-thumb uk-width-large-1-3"
-                                >
+                                <div class="works-thumb uk-width-large-1-3">
                                     <a href="http://www.carejob.com.tw/" target="_blank">
                                         <img src="images/works/carejob-logo.png" alt="works">
                                     </a>
                                 </div>
                             </div>
                             <div class="uk-grid">
-                                <div
-                                    class="works-thumb uk-width-large-1-3"
-                                >
+                                <div class="works-thumb uk-width-large-1-3">
                                     <a href="http://www.surelife.com.tw/" target="_blank">
                                         <img src="images/works/surelife.jpg" alt="works">
                                     </a>
@@ -490,7 +471,6 @@
                         </article>
                     </div>
                 </div>
-
             </div>
         </section>
         <!--PROJECT END-->
@@ -514,7 +494,7 @@
                             <!-- Row 1 -->
                             <div class="uk-grid">
                                 <?php
-                                    $mambers = array(
+                                    $members = array(
                                         'begin'     => 400,
                                         'add'       => -65,
                                         'duration'  => -80,
@@ -525,8 +505,8 @@
                                 <!--AVATAR [Johnny]-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
-                                    data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
-                                    data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
+                                    data-<?php echo $animStart($members);?>-top-top="opacity:0; right: -300px;"
+                                    data-<?php echo $animEnd($members);?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="http://fb.me/ihealth" class="uk-overlay" target="_blank">
@@ -534,7 +514,7 @@
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
-                                    <figcaption class="">
+                                    <figcaption>
                                         <h3>
                                             Johnny Wang
                                         </h3>
@@ -547,8 +527,8 @@
                                 <!--AVATAR [Asika]-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
-                                    data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
-                                    data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
+                                    data-<?php echo $animStart($members);?>-top-top="opacity:0; right: -300px;"
+                                    data-<?php echo $animEnd($members);?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="http://about.asika.tw" class="uk-overlay" target="_blank">
@@ -556,7 +536,7 @@
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
-                                    <figcaption class="">
+                                    <figcaption>
                                         <h3>Simon Asika</h3>
                                         <small>
                                             CTO & Lead Developer
@@ -567,8 +547,8 @@
                                 <!--AVATAR [Lucia]-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
-                                    data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
-                                    data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
+                                    data-<?php echo $animStart($members);?>-top-top="opacity:0; right: -300px;"
+                                    data-<?php echo $animEnd($members);?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="http://fb.me/lucia.yu.98" class="uk-overlay" target="_blank">
@@ -576,7 +556,7 @@
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
-                                    <figcaption class="">
+                                    <figcaption>
                                         <h3>
                                             Lucia Yu
                                         </h3>
@@ -589,8 +569,8 @@
                                 <!--AVATAR [Pearl]-->
                                 <div class="member-info uk-width-large-1-5"
                                      data-anchor-target="#members"
-                                     data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
-                                     data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
+                                     data-<?php echo $animStart($members);?>-top-top="opacity:0; right: -300px;"
+                                     data-<?php echo $animEnd($members);?>-top-top="opacity:1; right: 0px;"
                                     >
                                     <figure class="uk-margin-bottom">
                                         <a href="http://fb.me/shihpearl" class="uk-overlay" target="_blank">
@@ -598,7 +578,7 @@
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
-                                    <figcaption class="">
+                                    <figcaption>
                                         <h3>
                                             Pearl Shih
                                         </h3>
@@ -611,8 +591,8 @@
                                 <!--AVATAR [Peggy]-->
                                 <div class="member-info uk-width-large-1-5"
                                      data-anchor-target="#members"
-                                     data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
-                                     data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
+                                     data-<?php echo $animStart($members);?>-top-top="opacity:0; right: -300px;"
+                                     data-<?php echo $animEnd($members);?>-top-top="opacity:1; right: 0px;"
                                     >
                                     <figure class="uk-margin-bottom">
                                         <a href="http://about.me/peggylo" class="uk-overlay" target="_blank">
@@ -620,7 +600,7 @@
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
-                                    <figcaption class="">
+                                    <figcaption>
                                         <h3>
                                             Peggy Lo
                                         </h3>
@@ -634,7 +614,7 @@
                             <!-- Row 2 -->
                             <div class="uk-grid">
                                 <?php
-                                    $mambers = array(
+                                    $members = array(
                                         'begin'     => 100,
                                         'add'       => -65,
                                         'duration'  => -80,
@@ -642,14 +622,11 @@
                                     );
                                 ?>
 
-
-
-
                                 <!--AVATAR [Leo]-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
-                                    data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
-                                    data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
+                                    data-<?php echo $animStart($members);?>-top-top="opacity:0; right: -300px;"
+                                    data-<?php echo $animEnd($members);?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="http://www.plurk.com/GourryMK2" class="uk-overlay" target="_blank">
@@ -657,7 +634,7 @@
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
-                                    <figcaption class="">
+                                    <figcaption>
                                         <h3>
                                             Leo Tsun
                                         </h3>
@@ -670,8 +647,8 @@
                                 <!--AVATAR [Michael]-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
-                                    data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
-                                    data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
+                                    data-<?php echo $animStart($members);?>-top-top="opacity:0; right: -300px;"
+                                    data-<?php echo $animEnd($members);?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="http://coding.memory-forest.com/" class="uk-overlay" target="_blank">
@@ -679,7 +656,7 @@
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
-                                    <figcaption class="">
+                                    <figcaption>
                                         <h3>
                                             Michael Chen
                                         </h3>
@@ -692,8 +669,8 @@
                                 <!--AVATAR [Benson]-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
-                                    data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
-                                    data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
+                                    data-<?php echo $animStart($members);?>-top-top="opacity:0; right: -300px;"
+                                    data-<?php echo $animEnd($members);?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="http://llwbenson.er-webs.com/" class="uk-overlay" target="_blank">
@@ -701,7 +678,7 @@
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
-                                    <figcaption class="">
+                                    <figcaption>
                                         <h3>
                                             Benson Lu
                                         </h3>
@@ -714,8 +691,8 @@
                                 <!--AVATAR [OMO]-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
-                                    data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
-                                    data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
+                                    data-<?php echo $animStart($members);?>-top-top="opacity:0; right: -300px;"
+                                    data-<?php echo $animEnd($members);?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="https://www.facebook.com/profile.php?id=100000851917870" class="uk-overlay" target="_blank">
@@ -723,7 +700,7 @@
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
-                                    <figcaption class="">
+                                    <figcaption>
                                         <h3>
                                             Omo Lee
                                         </h3>
@@ -736,8 +713,8 @@
                                 <!--AVATAR [Steven]-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
-                                    data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
-                                    data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
+                                    data-<?php echo $animStart($members);?>-top-top="opacity:0; right: -300px;"
+                                    data-<?php echo $animEnd($members);?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="https://www.facebook.com/bingsheng.chen" class="uk-overlay" target="_blank">
@@ -745,7 +722,7 @@
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
-                                    <figcaption class="">
+                                    <figcaption>
                                         <h3>
                                             Steven Chen
                                         </h3>
@@ -759,7 +736,7 @@
                             <!-- Row 3 -->
                             <div class="uk-grid">
                                 <?php
-                                    $mambers = array(
+                                    $members = array(
                                         'begin'     => -200,
                                         'add'       => -65,
                                         'duration'  => -80,
@@ -770,8 +747,8 @@
                                 <!--AVATAR [Di Di]-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
-                                    data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
-                                    data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
+                                    data-<?php echo $animStart($members);?>-top-top="opacity:0; right: -300px;"
+                                    data-<?php echo $animEnd($members);?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
@@ -779,7 +756,7 @@
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
-                                    <figcaption class="">
+                                    <figcaption>
                                         <h3>
                                             Di Di
                                         </h3>
@@ -792,8 +769,8 @@
                                 <!--AVATAR [Duo Duo]-->
                                 <div class="member-info uk-width-large-1-5"
                                      data-anchor-target="#members"
-                                     data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
-                                     data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
+                                     data-<?php echo $animStart($members);?>-top-top="opacity:0; right: -300px;"
+                                     data-<?php echo $animEnd($members);?>-top-top="opacity:1; right: 0px;"
                                     >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
@@ -801,7 +778,7 @@
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
-                                    <figcaption class="">
+                                    <figcaption>
                                         <h3>
                                             Duo Duo
                                         </h3>
@@ -814,16 +791,16 @@
                                 <!--AVATAR [Do Do]-->
                                 <div class="member-info uk-width-large-1-5"
                                      data-anchor-target="#members"
-                                     data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
-                                     data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
-                                    >
+                                     data-<?php echo $animStart($members);?>-top-top="opacity:0; right: -300px;"
+                                     data-<?php echo $animEnd($members);?>-top-top="opacity:1; right: 0px;"
+                                >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
                                             <img src="images/mambers/do-do-avatar.jpg" alt="avatar" class="member-avatar" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
-                                    <figcaption class="">
+                                    <figcaption>
                                         <h3>
                                             Do Do
                                         </h3>
@@ -836,16 +813,16 @@
                                 <!--AVATAR [Big Eye]-->
                                 <div class="member-info uk-width-large-1-5"
                                      data-anchor-target="#members"
-                                     data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
-                                     data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
-                                    >
+                                     data-<?php echo $animStart($members);?>-top-top="opacity:0; right: -300px;"
+                                     data-<?php echo $animEnd($members);?>-top-top="opacity:1; right: 0px;"
+								>
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
                                             <img src="images/mambers/eye-avatar.jpg" alt="avatar" class="member-avatar" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
-                                    <figcaption class="">
+                                    <figcaption>
                                         <h3>
                                             Big Eye
                                         </h3>
@@ -858,8 +835,8 @@
                                 <!--AVATAR [Hua Hua]-->
                                 <div class="member-info uk-width-large-1-5"
                                      data-anchor-target="#members"
-                                     data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
-                                     data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
+                                     data-<?php echo $animStart($members);?>-top-top="opacity:0; right: -300px;"
+                                     data-<?php echo $animEnd($members);?>-top-top="opacity:1; right: 0px;"
                                     >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
@@ -867,7 +844,7 @@
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
-                                    <figcaption class="">
+                                    <figcaption>
                                         <h3>
                                             Hua Hua
                                         </h3>
@@ -878,12 +855,12 @@
                                 </div>
 
 
-
+<?php /*
                                 <!--AVATAR []-->
-                                <!--<div class="member-info uk-width-large-1-5"
+                                <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
-                                    data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
-                                    data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
+                                    data-<?php echo $animStart($members);?>-top-top="opacity:0; right: -300px;"
+                                    data-<?php echo $animEnd($members);?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
@@ -891,7 +868,7 @@
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
-                                    <figcaption class="">
+                                    <figcaption>
                                         <h3>
                                             Join us!
                                         </h3>
@@ -899,13 +876,13 @@
                                             Database & Software Engineer
                                         </small>
                                     </figcaption>
-                                </div>-->
+                                </div>
 
                                 <!--AVATAR []-->
-                                <!--<div class="member-info uk-width-large-1-5"
+                                <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
-                                    data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
-                                    data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
+                                    data-<?php echo $animStart($members);?>-top-top="opacity:0; right: -300px;"
+                                    data-<?php echo $animEnd($members);?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
@@ -913,7 +890,7 @@
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
-                                    <figcaption class="">
+                                    <figcaption>
                                         <h3>
                                             Join us!
                                         </h3>
@@ -921,13 +898,13 @@
                                             Product Manager
                                         </small>
                                     </figcaption>
-                                </div>-->
+                                </div>
 
                                 <!--AVATAR []-->
-                                <!--<div class="member-info uk-width-large-1-5"
+                                <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
-                                    data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
-                                    data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
+                                    data-<?php echo $animStart($members);?>-top-top="opacity:0; right: -300px;"
+                                    data-<?php echo $animEnd($members);?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
@@ -935,7 +912,7 @@
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
-                                    <figcaption class="">
+                                    <figcaption>
                                         <h3>
                                             Join us!
                                         </h3>
@@ -943,13 +920,14 @@
                                             Front-End Engineer
                                         </small>
                                     </figcaption>
-                                </div>-->
+                                </div>
+*/ ?>
                             </div>
 
                             <!-- Row 4 -->
                             <div class="uk-grid">
                                 <?php
-                                $mambers = array(
+                                $members = array(
                                     'begin'     => -500,
                                     'add'       => -65,
                                     'duration'  => -80,
@@ -960,16 +938,16 @@
                                 <!--AVATAR [La La]-->
                                 <div class="member-info uk-width-large-1-5"
                                      data-anchor-target="#members"
-                                     data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
-                                     data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
-                                    >
+                                     data-<?php echo $animStart($members);?>-top-top="opacity:0; right: -300px;"
+                                     data-<?php echo $animEnd($members);?>-top-top="opacity:1; right: 0px;"
+                                >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
                                             <img src="images/mambers/la-la-avatar.jpg" alt="avatar" class="member-avatar" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
-                                    <figcaption class="">
+                                    <figcaption>
                                         <h3>
                                             La La
                                         </h3>
@@ -982,16 +960,16 @@
                                 <!--AVATAR [Larva]-->
                                 <div class="member-info uk-width-large-1-5"
                                      data-anchor-target="#members"
-                                     data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
-                                     data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
-                                    >
+                                     data-<?php echo $animStart($members);?>-top-top="opacity:0; right: -300px;"
+                                     data-<?php echo $animEnd($members);?>-top-top="opacity:1; right: 0px;"
+                                >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
                                             <img src="images/mambers/larva-avatar.jpg" alt="avatar" class="member-avatar" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
-                                    <figcaption class="">
+                                    <figcaption>
                                         <h3>
                                             Red & Yellow
                                         </h3>
@@ -1004,16 +982,16 @@
                                 <!--AVATAR [mao mao]-->
                                 <div class="member-info uk-width-large-1-5"
                                      data-anchor-target="#members"
-                                     data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
-                                     data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
-                                    >
+                                     data-<?php echo $animStart($members);?>-top-top="opacity:0; right: -300px;"
+                                     data-<?php echo $animEnd($members);?>-top-top="opacity:1; right: 0px;"
+                                >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
                                             <img src="images/mambers/mao-mao-avatar.jpg" alt="avatar" class="member-avatar" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
-                                    <figcaption class="">
+                                    <figcaption>
                                         <h3>
                                             Mao Mao
                                         </h3>
@@ -1026,16 +1004,16 @@
                                 <!--AVATAR [Ha Ha]-->
                                 <div class="member-info uk-width-large-1-5"
                                      data-anchor-target="#members"
-                                     data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
-                                     data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
-                                    >
+                                     data-<?php echo $animStart($members);?>-top-top="opacity:0; right: -300px;"
+                                     data-<?php echo $animEnd($members);?>-top-top="opacity:1; right: 0px;"
+                                >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
                                             <img src="images/mambers/ha-ha-avatar.jpg" alt="avatar" class="member-avatar" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
-                                    <figcaption class="">
+                                    <figcaption>
                                         <h3>
                                             Ha Ha
                                         </h3>
@@ -1048,16 +1026,16 @@
                                 <!--AVATAR [Pi Pi]-->
                                 <div class="member-info uk-width-large-1-5"
                                      data-anchor-target="#members"
-                                     data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
-                                     data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
-                                    >
+                                     data-<?php echo $animStart($members);?>-top-top="opacity:0; right: -300px;"
+                                     data-<?php echo $animEnd($members);?>-top-top="opacity:1; right: 0px;"
+                                >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
                                             <img src="images/mambers/pi-pi-avatar.jpg" alt="avatar" class="member-avatar" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
-                                    <figcaption class="">
+                                    <figcaption>
                                         <h3>
                                             Pi Pi
                                         </h3>
@@ -1067,11 +1045,12 @@
                                     </figcaption>
                                 </div>
 
+<?php /*
                                 <!--AVATAR []-->
-                                <!--<div class="member-info uk-width-large-1-5"
+                                <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
-                                    data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
-                                    data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
+                                    data-<?php echo $animStart($members);?>-top-top="opacity:0; right: -300px;"
+                                    data-<?php echo $animEnd($members);?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
@@ -1079,7 +1058,7 @@
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
-                                    <figcaption class="">
+                                    <figcaption>
                                         <h3>
                                             Join us!
                                         </h3>
@@ -1087,13 +1066,13 @@
                                             Product Manager
                                         </small>
                                     </figcaption>
-                                </div>-->
+                                </div>
 
                                 <!--AVATAR []-->
-                                <!--<div class="member-info uk-width-large-1-5"
+                                <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
-                                    data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
-                                    data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
+                                    data-<?php echo $animStart($members);?>-top-top="opacity:0; right: -300px;"
+                                    data-<?php echo $animEnd($members);?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
@@ -1101,7 +1080,7 @@
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
-                                    <figcaption class="">
+                                    <figcaption>
                                         <h3>
                                             Join us!
                                         </h3>
@@ -1109,13 +1088,14 @@
                                             Front-End Engineer
                                         </small>
                                     </figcaption>
-                                </div>-->
+                                </div>
+*/ ?>
                             </div>
 
                             <!-- Row 4 -->
                             <div class="uk-grid">
                                 <?php
-                                $mambers = array(
+                                $members = array(
                                     'begin'     => -800,
                                     'add'       => -65,
                                     'duration'  => -80,
@@ -1126,16 +1106,16 @@
                                 <!--AVATAR [Moritann]-->
                                 <div class="member-info uk-width-large-1-5"
                                      data-anchor-target="#members"
-                                     data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
-                                     data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
-                                    >
+                                     data-<?php echo $animStart($members);?>-top-top="opacity:0; right: -300px;"
+                                     data-<?php echo $animEnd($members);?>-top-top="opacity:1; right: 0px;"
+                                >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
                                             <img src="images/mambers/moritann-avatar.jpg" alt="avatar" class="member-avatar" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
-                                    <figcaption class="">
+                                    <figcaption>
                                         <h3>
                                             Moritann
                                         </h3>
@@ -1145,11 +1125,12 @@
                                     </figcaption>
                                 </div>
 
+<?php /*
                                 <!--AVATAR []-->
-                                <!--<div class="member-info uk-width-large-1-5"
+                                <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
-                                    data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
-                                    data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
+                                    data-<?php echo $animStart($members);?>-top-top="opacity:0; right: -300px;"
+                                    data-<?php echo $animEnd($members);?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
@@ -1157,7 +1138,7 @@
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
-                                    <figcaption class="">
+                                    <figcaption>
                                         <h3>
                                             Join us!
                                         </h3>
@@ -1165,13 +1146,13 @@
                                             Product Manager
                                         </small>
                                     </figcaption>
-                                </div>-->
+                                </div>
 
                                 <!--AVATAR []-->
-                                <!--<div class="member-info uk-width-large-1-5"
+                                <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
-                                    data-<?php echo $animStart($mambers);?>-top-top="opacity:0; right: -300px;"
-                                    data-<?php echo $animEnd($mambers);?>-top-top="opacity:1; right: 0px;"
+                                    data-<?php echo $animStart($members);?>-top-top="opacity:0; right: -300px;"
+                                    data-<?php echo $animEnd($members);?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
@@ -1179,7 +1160,7 @@
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
-                                    <figcaption class="">
+                                    <figcaption>
                                         <h3>
                                             Join us!
                                         </h3>
@@ -1187,7 +1168,8 @@
                                             Front-End Engineer
                                         </small>
                                     </figcaption>
-                                </div>-->
+                                </div>
+*/ ?>
                             </div>
                         </article>
                     </div>
@@ -1196,8 +1178,9 @@
         </section>
         <!--TEAM END-->
 
+<?php /*
         <!--RECRUIT START-->
-        <!--<section id="recruiting" sr-scrollspy="{repeat: true}">
+        <section id="recruiting" sr-scrollspy="{repeat: true}">
             <div id="sr-example" class="uk-container uk-container-center sr-container">
                 <div class="uk-grid">
                     <div class="uk-width-large-1">
@@ -1370,8 +1353,9 @@
                 </div>
 
             </div>
-        </section>-->
+        </section>
         <!--RECRUIT END-->
+*/ ?>
 
         <!--CONTRACT START-->
         <section id="contact" class="bg-white" sr-scrollspy="{repeat: true}" style="overflow: hidden;">
@@ -1423,7 +1407,7 @@
             <div id="sr-footer" class="uk-container uk-container-center sr-container">
                 <div class="uk-grid">
                     <div class="uk-width-large-2-5">
-                            SMS Taiwan Copyright (C) SMS Consulting Service Co.,Ltd.
+						SMS Taiwan Copyright (C) SMS Consulting Service Co.,Ltd.
                     </div>
                     <div class="uk-width-large-3-5 uk-text-right">
                         <a href="http://bm-sms.co.jp/" target="_blank">
