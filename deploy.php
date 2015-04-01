@@ -14,11 +14,6 @@ require __DIR__ . '/lessphp/lessc.inc.php';
 $lessFilename = __DIR__ . '/less/main.less';
 $cssFilename = __DIR__ . '/css/main.css';
 
-if (file_exists($cssFilename))
-{
-	unlink($cssFilename);
-}
-
 $less = new lessc;
 $less->checkedCompile($lessFilename, $cssFilename);
 
