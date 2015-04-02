@@ -13,7 +13,7 @@
  *
  * @return int
  */
-function animationStart(array &$namespace)
+$animationStart = function(array &$namespace)
 {
 	if (empty($namespace['current']))
 	{
@@ -30,7 +30,7 @@ function animationStart(array &$namespace)
  *
  * @return int
  */
-function animationEnd(array &$namespace)
+$animationEnd = function(array &$namespace)
 {
 	$return = $namespace['begin'] + (($namespace['current'] - 1) * $namespace['add']) + $namespace['duration'];
 
@@ -299,15 +299,15 @@ function animationEnd(array &$namespace)
                                         <img
                                             src="images/features/joomla-orange.png" width="150" height="150" alt=""
                                             data-anchor-target="#features"
-                                            data-<?php echo animationStart($feature_img); ?>-top-top="<?php echo $actionStart; ?>"
-                                            data-<?php echo animationEnd($feature_img); ?>-top-top="<?php echo $actionEnd; ?>"
+                                            data-<?php echo $animationStart($feature_img); ?>-top-top="<?php echo $actionStart; ?>"
+                                            data-<?php echo $animationEnd($feature_img); ?>-top-top="<?php echo $actionEnd; ?>"
                                         />
                                     </p>
                                     <div
                                         class="feature-text"
                                         data-anchor-target="#features"
-                                        data-<?php echo animationStart($feature_text); ?>-top-top="opacity: 0; top: 100px;"
-                                        data-<?php echo animationEnd($feature_text); ?>-top-top="opacity: 1; top: 0px;"
+                                        data-<?php echo $animationStart($feature_text); ?>-top-top="opacity: 0; top: 100px;"
+                                        data-<?php echo $animationEnd($feature_text); ?>-top-top="opacity: 1; top: 0px;"
                                     >
                                         <h3 class="uk-text-center">
                                             專業技術
@@ -325,15 +325,15 @@ function animationEnd(array &$namespace)
                                         <img
                                             src="images/features/opensource-orange.png" width="150" height="150" alt=""
                                             data-anchor-target="#features"
-                                            data-<?php echo animationStart($feature_img); ?>-top-top="<?php echo $actionStart; ?>"
-                                            data-<?php echo animationEnd($feature_img); ?>-top-top="<?php echo $actionEnd; ?>"
+                                            data-<?php echo $animationStart($feature_img); ?>-top-top="<?php echo $actionStart; ?>"
+                                            data-<?php echo $animationEnd($feature_img); ?>-top-top="<?php echo $actionEnd; ?>"
                                         />
                                     </p>
                                     <div
                                         class="feature-text"
                                         data-anchor-target="#features"
-                                        data-<?php echo animationStart($feature_text); ?>-top-top="opacity: 0; top: 100px;"
-                                        data-<?php echo animationEnd($feature_text); ?>-top-top="opacity: 1; top: 0px;"
+                                        data-<?php echo $animationStart($feature_text); ?>-top-top="opacity: 0; top: 100px;"
+                                        data-<?php echo $animationEnd($feature_text); ?>-top-top="opacity: 1; top: 0px;"
                                     >
                                         <h3 class="uk-text-center">
                                             開源精神
@@ -351,15 +351,15 @@ function animationEnd(array &$namespace)
                                         <img
                                             src="images/features/global-orange.png" width="150" height="150" alt=""
                                             data-anchor-target="#features"
-                                            data-<?php echo animationStart($feature_img); ?>-top-top="<?php echo $actionStart; ?>"
-                                            data-<?php echo animationEnd($feature_img); ?>-top-top="<?php echo $actionEnd; ?>"
+                                            data-<?php echo $animationStart($feature_img); ?>-top-top="<?php echo $actionStart; ?>"
+                                            data-<?php echo $animationEnd($feature_img); ?>-top-top="<?php echo $actionEnd; ?>"
                                         />
                                     </p>
                                     <div
                                         class="feature-text"
                                         data-anchor-target="#features"
-                                        data-<?php echo animationStart($feature_text); ?>-top-top="opacity: 0; top: 100px;"
-                                        data-<?php echo animationEnd($feature_text); ?>-top-top="opacity: 1; top: 0px;"
+                                        data-<?php echo $animationStart($feature_text); ?>-top-top="opacity: 0; top: 100px;"
+                                        data-<?php echo $animationEnd($feature_text); ?>-top-top="opacity: 1; top: 0px;"
                                     >
                                         <h3 class="uk-text-center">
                                             國際視野
@@ -377,8 +377,8 @@ function animationEnd(array &$namespace)
                             <div
                                 id="sr-tech-wrap"
                                 data-anchor-target="#features"
-                                data-<?php echo animationStart($feature_text); ?>-top-top="opacity: 0; top: 100px;"
-                                data-<?php echo animationEnd($feature_text); ?>-top-top="opacity: 1; top: 0px;"
+                                data-<?php echo $animationStart($feature_text); ?>-top-top="opacity: 0; top: 100px;"
+                                data-<?php echo $animationEnd($feature_text); ?>-top-top="opacity: 1; top: 0px;"
                             >
                                 <div class="uk-grid">
                                     <div class="uk-width-large-1">
@@ -542,8 +542,8 @@ function animationEnd(array &$namespace)
                                 <!--AVATAR [Johnny]-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
-                                    data-<?php echo animationStart($members); ?>-top-top="opacity:0; right: -300px;"
-                                    data-<?php echo animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
+                                    data-<?php echo $animationStart($members); ?>-top-top="opacity:0; right: -300px;"
+                                    data-<?php echo $animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="http://fb.me/ihealth" class="uk-overlay" target="_blank">
@@ -564,8 +564,8 @@ function animationEnd(array &$namespace)
                                 <!--AVATAR [Asika]-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
-                                    data-<?php echo animationStart($members); ?>-top-top="opacity:0; right: -300px;"
-                                    data-<?php echo animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
+                                    data-<?php echo $animationStart($members); ?>-top-top="opacity:0; right: -300px;"
+                                    data-<?php echo $animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="http://about.asika.tw" class="uk-overlay" target="_blank">
@@ -584,8 +584,8 @@ function animationEnd(array &$namespace)
                                 <!--AVATAR [Lucia]-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
-                                    data-<?php echo animationStart($members); ?>-top-top="opacity:0; right: -300px;"
-                                    data-<?php echo animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
+                                    data-<?php echo $animationStart($members); ?>-top-top="opacity:0; right: -300px;"
+                                    data-<?php echo $animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="http://fb.me/lucia.yu.98" class="uk-overlay" target="_blank">
@@ -606,8 +606,8 @@ function animationEnd(array &$namespace)
                                 <!--AVATAR [Pearl]-->
                                 <div class="member-info uk-width-large-1-5"
                                      data-anchor-target="#members"
-                                     data-<?php echo animationStart($members); ?>-top-top="opacity:0; right: -300px;"
-                                     data-<?php echo animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
+                                     data-<?php echo $animationStart($members); ?>-top-top="opacity:0; right: -300px;"
+                                     data-<?php echo $animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
                                     >
                                     <figure class="uk-margin-bottom">
                                         <a href="http://fb.me/shihpearl" class="uk-overlay" target="_blank">
@@ -628,8 +628,8 @@ function animationEnd(array &$namespace)
                                 <!--AVATAR [Peggy]-->
                                 <div class="member-info uk-width-large-1-5"
                                      data-anchor-target="#members"
-                                     data-<?php echo animationStart($members); ?>-top-top="opacity:0; right: -300px;"
-                                     data-<?php echo animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
+                                     data-<?php echo $animationStart($members); ?>-top-top="opacity:0; right: -300px;"
+                                     data-<?php echo $animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
                                     >
                                     <figure class="uk-margin-bottom">
                                         <a href="http://about.me/peggylo" class="uk-overlay" target="_blank">
@@ -662,8 +662,8 @@ function animationEnd(array &$namespace)
                                 <!--AVATAR [Leo]-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
-                                    data-<?php echo animationStart($members); ?>-top-top="opacity:0; right: -300px;"
-                                    data-<?php echo animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
+                                    data-<?php echo $animationStart($members); ?>-top-top="opacity:0; right: -300px;"
+                                    data-<?php echo $animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="http://www.plurk.com/GourryMK2" class="uk-overlay" target="_blank">
@@ -684,8 +684,8 @@ function animationEnd(array &$namespace)
                                 <!--AVATAR [Michael]-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
-                                    data-<?php echo animationStart($members); ?>-top-top="opacity:0; right: -300px;"
-                                    data-<?php echo animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
+                                    data-<?php echo $animationStart($members); ?>-top-top="opacity:0; right: -300px;"
+                                    data-<?php echo $animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="http://coding.memory-forest.com/" class="uk-overlay" target="_blank">
@@ -706,8 +706,8 @@ function animationEnd(array &$namespace)
                                 <!--AVATAR [Benson]-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
-                                    data-<?php echo animationStart($members); ?>-top-top="opacity:0; right: -300px;"
-                                    data-<?php echo animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
+                                    data-<?php echo $animationStart($members); ?>-top-top="opacity:0; right: -300px;"
+                                    data-<?php echo $animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="http://llwbenson.er-webs.com/" class="uk-overlay" target="_blank">
@@ -728,8 +728,8 @@ function animationEnd(array &$namespace)
                                 <!--AVATAR [OMO]-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
-                                    data-<?php echo animationStart($members); ?>-top-top="opacity:0; right: -300px;"
-                                    data-<?php echo animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
+                                    data-<?php echo $animationStart($members); ?>-top-top="opacity:0; right: -300px;"
+                                    data-<?php echo $animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="https://www.facebook.com/profile.php?id=100000851917870" class="uk-overlay" target="_blank">
@@ -750,8 +750,8 @@ function animationEnd(array &$namespace)
                                 <!--AVATAR [Steven]-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
-                                    data-<?php echo animationStart($members); ?>-top-top="opacity:0; right: -300px;"
-                                    data-<?php echo animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
+                                    data-<?php echo $animationStart($members); ?>-top-top="opacity:0; right: -300px;"
+                                    data-<?php echo $animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="https://www.facebook.com/bingsheng.chen" class="uk-overlay" target="_blank">
@@ -784,8 +784,8 @@ function animationEnd(array &$namespace)
                                 <!--AVATAR [Di Di]-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
-                                    data-<?php echo animationStart($members); ?>-top-top="opacity:0; right: -300px;"
-                                    data-<?php echo animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
+                                    data-<?php echo $animationStart($members); ?>-top-top="opacity:0; right: -300px;"
+                                    data-<?php echo $animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
@@ -806,8 +806,8 @@ function animationEnd(array &$namespace)
                                 <!--AVATAR [Duo Duo]-->
                                 <div class="member-info uk-width-large-1-5"
                                      data-anchor-target="#members"
-                                     data-<?php echo animationStart($members); ?>-top-top="opacity:0; right: -300px;"
-                                     data-<?php echo animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
+                                     data-<?php echo $animationStart($members); ?>-top-top="opacity:0; right: -300px;"
+                                     data-<?php echo $animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
                                     >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
@@ -828,8 +828,8 @@ function animationEnd(array &$namespace)
                                 <!--AVATAR [Do Do]-->
                                 <div class="member-info uk-width-large-1-5"
                                      data-anchor-target="#members"
-                                     data-<?php echo animationStart($members); ?>-top-top="opacity:0; right: -300px;"
-                                     data-<?php echo animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
+                                     data-<?php echo $animationStart($members); ?>-top-top="opacity:0; right: -300px;"
+                                     data-<?php echo $animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
@@ -850,8 +850,8 @@ function animationEnd(array &$namespace)
                                 <!--AVATAR [Big Eye]-->
                                 <div class="member-info uk-width-large-1-5"
                                      data-anchor-target="#members"
-                                     data-<?php echo animationStart($members); ?>-top-top="opacity:0; right: -300px;"
-                                     data-<?php echo animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
+                                     data-<?php echo $animationStart($members); ?>-top-top="opacity:0; right: -300px;"
+                                     data-<?php echo $animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
 								>
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
@@ -872,8 +872,8 @@ function animationEnd(array &$namespace)
                                 <!--AVATAR [Hua Hua]-->
                                 <div class="member-info uk-width-large-1-5"
                                      data-anchor-target="#members"
-                                     data-<?php echo animationStart($members); ?>-top-top="opacity:0; right: -300px;"
-                                     data-<?php echo animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
+                                     data-<?php echo $animationStart($members); ?>-top-top="opacity:0; right: -300px;"
+                                     data-<?php echo $animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
                                     >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
@@ -896,8 +896,8 @@ function animationEnd(array &$namespace)
                                 <!--AVATAR []-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
-                                    data-<?php echo animationStart($members); ?>-top-top="opacity:0; right: -300px;"
-                                    data-<?php echo animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
+                                    data-<?php echo $animationStart($members); ?>-top-top="opacity:0; right: -300px;"
+                                    data-<?php echo $animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
@@ -918,8 +918,8 @@ function animationEnd(array &$namespace)
                                 <!--AVATAR []-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
-                                    data-<?php echo animationStart($members); ?>-top-top="opacity:0; right: -300px;"
-                                    data-<?php echo animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
+                                    data-<?php echo $animationStart($members); ?>-top-top="opacity:0; right: -300px;"
+                                    data-<?php echo $animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
@@ -940,8 +940,8 @@ function animationEnd(array &$namespace)
                                 <!--AVATAR []-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
-                                    data-<?php echo animationStart($members); ?>-top-top="opacity:0; right: -300px;"
-                                    data-<?php echo animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
+                                    data-<?php echo $animationStart($members); ?>-top-top="opacity:0; right: -300px;"
+                                    data-<?php echo $animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
@@ -975,8 +975,8 @@ function animationEnd(array &$namespace)
                                 <!--AVATAR [La La]-->
                                 <div class="member-info uk-width-large-1-5"
                                      data-anchor-target="#members"
-                                     data-<?php echo animationStart($members); ?>-top-top="opacity:0; right: -300px;"
-                                     data-<?php echo animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
+                                     data-<?php echo $animationStart($members); ?>-top-top="opacity:0; right: -300px;"
+                                     data-<?php echo $animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
@@ -997,8 +997,8 @@ function animationEnd(array &$namespace)
                                 <!--AVATAR [Larva]-->
                                 <div class="member-info uk-width-large-1-5"
                                      data-anchor-target="#members"
-                                     data-<?php echo animationStart($members); ?>-top-top="opacity:0; right: -300px;"
-                                     data-<?php echo animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
+                                     data-<?php echo $animationStart($members); ?>-top-top="opacity:0; right: -300px;"
+                                     data-<?php echo $animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
@@ -1019,8 +1019,8 @@ function animationEnd(array &$namespace)
                                 <!--AVATAR [mao mao]-->
                                 <div class="member-info uk-width-large-1-5"
                                      data-anchor-target="#members"
-                                     data-<?php echo animationStart($members); ?>-top-top="opacity:0; right: -300px;"
-                                     data-<?php echo animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
+                                     data-<?php echo $animationStart($members); ?>-top-top="opacity:0; right: -300px;"
+                                     data-<?php echo $animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
@@ -1041,8 +1041,8 @@ function animationEnd(array &$namespace)
                                 <!--AVATAR [Ha Ha]-->
                                 <div class="member-info uk-width-large-1-5"
                                      data-anchor-target="#members"
-                                     data-<?php echo animationStart($members); ?>-top-top="opacity:0; right: -300px;"
-                                     data-<?php echo animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
+                                     data-<?php echo $animationStart($members); ?>-top-top="opacity:0; right: -300px;"
+                                     data-<?php echo $animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
@@ -1063,8 +1063,8 @@ function animationEnd(array &$namespace)
                                 <!--AVATAR [Pi Pi]-->
                                 <div class="member-info uk-width-large-1-5"
                                      data-anchor-target="#members"
-                                     data-<?php echo animationStart($members); ?>-top-top="opacity:0; right: -300px;"
-                                     data-<?php echo animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
+                                     data-<?php echo $animationStart($members); ?>-top-top="opacity:0; right: -300px;"
+                                     data-<?php echo $animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
@@ -1086,8 +1086,8 @@ function animationEnd(array &$namespace)
                                 <!--AVATAR []-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
-                                    data-<?php echo animationStart($members); ?>-top-top="opacity:0; right: -300px;"
-                                    data-<?php echo animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
+                                    data-<?php echo $animationStart($members); ?>-top-top="opacity:0; right: -300px;"
+                                    data-<?php echo $animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
@@ -1108,8 +1108,8 @@ function animationEnd(array &$namespace)
                                 <!--AVATAR []-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
-                                    data-<?php echo animationStart($members); ?>-top-top="opacity:0; right: -300px;"
-                                    data-<?php echo animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
+                                    data-<?php echo $animationStart($members); ?>-top-top="opacity:0; right: -300px;"
+                                    data-<?php echo $animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
@@ -1143,8 +1143,8 @@ function animationEnd(array &$namespace)
                                 <!--AVATAR [Moritann]-->
                                 <div class="member-info uk-width-large-1-5"
                                      data-anchor-target="#members"
-                                     data-<?php echo animationStart($members); ?>-top-top="opacity:0; right: -300px;"
-                                     data-<?php echo animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
+                                     data-<?php echo $animationStart($members); ?>-top-top="opacity:0; right: -300px;"
+                                     data-<?php echo $animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
@@ -1166,8 +1166,8 @@ function animationEnd(array &$namespace)
                                 <!--AVATAR []-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
-                                    data-<?php echo animationStart($members); ?>-top-top="opacity:0; right: -300px;"
-                                    data-<?php echo animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
+                                    data-<?php echo $animationStart($members); ?>-top-top="opacity:0; right: -300px;"
+                                    data-<?php echo $animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
@@ -1188,8 +1188,8 @@ function animationEnd(array &$namespace)
                                 <!--AVATAR []-->
                                 <div class="member-info uk-width-large-1-5"
                                     data-anchor-target="#members"
-                                    data-<?php echo animationStart($members); ?>-top-top="opacity:0; right: -300px;"
-                                    data-<?php echo animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
+                                    data-<?php echo $animationStart($members); ?>-top-top="opacity:0; right: -300px;"
+                                    data-<?php echo $animationEnd($members); ?>-top-top="opacity:1; right: 0px;"
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
