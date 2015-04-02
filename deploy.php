@@ -6,25 +6,50 @@
  * @license    GNU General Public License version 2 or later; see LICENSE
  */
 
-// Enable Debug
-$debug = 1;
-
 require __DIR__ . '/lessphp/lessc.inc.php';
 
-$lessFilename = __DIR__ . '/less/main.less';
-$cssFilename = __DIR__ . '/css/main.css';
+class Site
+{
+	/**
+	 * Deploy html files
+	 *
+	 * @param  string  $env    Deploy environment
+	 * @param  bool    $debug  Weather to enable debug mode
+	 *
+	 * @return string         Index Html contents
+	 */
+	public static function deploy($env, $debug)
+	{
+		$env = in_array($env, array('prod', 'dev')) ? $env : 'prod';
+		$debug = (bool) $debug;
 
-$less = new lessc;
-$less->checkedCompile($lessFilename, $cssFilename);
+		self::compileLess();
 
-ob_start();
+		ob_start();
 
-include __DIR__ . '/index.php';
+		include __DIR__ . '/tmpl/index.php';
 
-$contents = ob_get_contents();
+		$contents = ob_get_contents();
 
-ob_end_clean();
+		ob_end_clean();
 
-file_put_contents(__DIR__ . '/index.html', $contents);
+		file_put_contents(__DIR__ . '/index.html', $contents);
 
-echo $contents;
+		return $contents;
+	}
+
+	/**
+	 * compileLess
+	 *
+	 * @return void
+	 */
+	protected static function compileLess()
+	{
+		$lessFilename = __DIR__ . '/less/main.less';
+		$cssFilename = __DIR__ . '/css/main.css';
+
+		$less = new lessc;
+
+		$less->checkedCompile($lessFilename, $cssFilename);
+	}
+}
