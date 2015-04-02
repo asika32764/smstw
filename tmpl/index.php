@@ -6,6 +6,8 @@
  * @license    GNU General Public License version 2 or later; see LICENSE
  */
 
+/** @var array $data */
+
 /**
  * animationStart
  *
@@ -63,30 +65,27 @@ $animationEnd = function(array &$namespace)
 
         <title>SMS Taiwan 知恩思資訊資訊股份有限公司</title>
 
-        <?php if ($debug): ?>
-        <link href='http://fonts.googleapis.com/css?family=Cuprum:400' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
-
-        <link rel="stylesheet" href="css/uikit.min.css" />
-        <link rel="stylesheet" href="css/main.css" />
-        <?php else: ?>
-        <link rel="stylesheet" href="css/main.min.css" />
-        <?php endif; ?>
+<?php if ($data['debug']): ?>
+		<link rel="stylesheet" href="css/lib.min.css" />
+		<link rel="stylesheet" href="css/uikit.css" />
+		<link rel="stylesheet" href="css/main.css" />
+<?php else: ?>
+		<link rel="stylesheet" href="css/main.min.css" />
+<?php endif; ?>
 
         <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
 
-        <?php if ($debug): ?>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<?php if ($data['debug']): ?>
+        <script src="js/jquery.js"></script>
         <script src="js/jquery-scrollspy.js"></script>
         <script src="js/jquery.smooth-scroll.js"></script>
         <script src="js/skrollr.js"></script>
         <script src="js/uikit.js"></script>
-        <script src="js/gmap3.min.js"></script>
+        <script src="js/gmap3.js"></script>
         <script src="js/main.js"></script>
-        <?php else: ?>
+<?php else: ?>
         <script src="js/main.min.js"></script>
-        <?php endif; ?>
+<?php endif; ?>
 
     </head>
     <body id="top"  sr-scrollspy="{repeat: true}">

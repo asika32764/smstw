@@ -1,12 +1,20 @@
 <?php
 
+require __DIR__ . '/vendor/autoload.php';
 require __DIR__ . '/site.class.php';
 
-$site = new Site;
+$minify = array_key_exists('minify', $_GET) ? (bool) $_GET['minify'] : false;
+$debug = array_key_exists('debug', $_GET) ? (bool) $_GET['debug'] : true;
+
+$site = new Site($environment, $debug);
 
 $site->deploy();
 
-$env   = array_key_exists('env',   $_GET) ? $_GET['env']          : 'dev';
-$debug = array_key_exists('debug', $_GET) ? (bool) $_GET['debug'] : true;
+if ($minify)
+{
+	$site->minify();
+}
 
-echo $site->getHtmlContents($env, $debug);
+$data = array('debug' => $debug);
+
+echo $site->getHtmlContents($data);
