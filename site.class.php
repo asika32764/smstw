@@ -17,20 +17,20 @@ class Site
 	 */
 	public function deploy()
 	{
-		$this->compileLess();
+		$this->compileLess(__DIR__ . '/less/main.less', __DIR__ . '/css/main.css');
 		$this->writeHtmlContents();
 	}
 
 	/**
 	 * compileLess
 	 *
+	 * @param string $lessFilename
+	 * @param string $cssFilename
+	 *
 	 * @return void
 	 */
-	public function compileLess()
+	public function compileLess($lessFilename, $cssFilename)
 	{
-		$lessFilename = __DIR__ . '/less/main.less';
-		$cssFilename = __DIR__ . '/css/main.css';
-
 		$less = new lessc;
 
 		$less->checkedCompile($lessFilename, $cssFilename);
