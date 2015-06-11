@@ -1,0 +1,7 @@
+{
+    "name": "smstw/sms-official-site",
+    "require": {
+        "leafo/lessphp": "*",
+        "mrclay/minify": "*"
+    }
+}

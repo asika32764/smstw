@@ -1,39 +1,15 @@
-# SMS Taiwan Official Site
+SMS Taiwan Official Site
+========================
 
-http://bm-sms.com.tw
-
------
+http://www.bm-sms.com.tw
+------------------------
 
 ## Usage
 
-Clone 以後，若要修改CSS，可以將 `init.php` 的
+網頁的內容放在 `tmpl/index.php` 內
 
-``` php
-// Debug
-$debug = 0;
+瀏覽 http://localhost/sms-official-site 看網頁結果，同時會順便編譯 LESS 檔和 index.html 檔
 
+## 網址參數
 
-// LESS
-if(0) :
-  //...
-endif;
-```
-
-改成
-
-``` php
-// Debug
-$debug = 1;
-
-
-// LESS
-if(1) :
-  //...
-endif;
-```
-
-這樣 LESS 自動編譯就會啟動，而且網站會載入未壓縮的 CSS, JS 來幫助開發。
-
-
-
-
+- 使用 `debug=0` 的參數可以顯示 production 的網頁結果，ex: http://localhost/sms-official-site?debug=0
