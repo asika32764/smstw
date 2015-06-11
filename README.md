@@ -12,5 +12,4 @@ http://www.bm-sms.com.tw
 
 ## 網址參數
 
-- 使用 `debug=0` 的參數可以顯示 production 的網頁結果
-- 使用 `minify=1` 的參數可以 minify CSS 和 JS 檔案
+- 使用 `debug=0` 的參數可以顯示 production 的網頁結果，ex: http://localhost/sms-official-site?debug=0

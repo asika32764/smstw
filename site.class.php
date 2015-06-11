@@ -20,6 +20,8 @@ class Site
 	{
 		$this->compileLess(__DIR__ . '/less/main.less', __DIR__ . '/css/main.css');
 
+		$this->minify();
+
 		$this->writeHtmlContents();
 	}
 
