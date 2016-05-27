@@ -546,7 +546,7 @@ $animationEnd = function(array &$namespace)
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="http://fb.me/ihealth" class="uk-overlay" target="_blank">
-                                            <img src="images/mambers/johnny-avatar.jpg" alt="avatar" class="member-avatar" />
+                                            <img src="images/mambers/johnny-avatar.jpg" alt="avatar" class="member-avatar" style="min-height: 200px;" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
@@ -568,7 +568,7 @@ $animationEnd = function(array &$namespace)
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="http://about.asika.tw" class="uk-overlay" target="_blank">
-                                            <img src="images/mambers/asika-avatar.jpg" alt="avatar" class="member-avatar" />
+                                            <img src="images/mambers/asika-avatar.jpg" alt="avatar" class="member-avatar" style="min-height: 200px;" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
@@ -588,7 +588,7 @@ $animationEnd = function(array &$namespace)
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="http://fb.me/lucia.yu.98" class="uk-overlay" target="_blank">
-                                            <img src="images/mambers/lucia-avatar.jpg" alt="avatar" class="member-avatar" />
+                                            <img src="images/mambers/lucia-avatar.jpg" alt="avatar" class="member-avatar" style="min-height: 200px;" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
@@ -610,7 +610,7 @@ $animationEnd = function(array &$namespace)
                                     >
                                     <figure class="uk-margin-bottom">
                                         <a href="http://fb.me/shihpearl" class="uk-overlay" target="_blank">
-                                            <img src="images/mambers/pearl-avatar.jpg" alt="avatar" class="member-avatar" />
+                                            <img src="images/mambers/pearl-avatar.jpg" alt="avatar" class="member-avatar" style="min-height: 200px;" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
@@ -632,7 +632,7 @@ $animationEnd = function(array &$namespace)
                                     >
                                     <figure class="uk-margin-bottom">
                                         <a href="http://about.me/peggylo" class="uk-overlay" target="_blank">
-                                            <img src="images/mambers/peggy-avatar.jpg" alt="avatar" class="member-avatar" />
+                                            <img src="images/mambers/peggy-avatar.jpg" alt="avatar" class="member-avatar" style="min-height: 200px;" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
@@ -666,7 +666,7 @@ $animationEnd = function(array &$namespace)
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="http://www.plurk.com/GourryMK2" class="uk-overlay" target="_blank">
-                                            <img src="images/mambers/leo-avatar.jpg" alt="avatar" class="member-avatar" />
+                                            <img src="images/mambers/leo-avatar.jpg" alt="avatar" class="member-avatar" style="min-height: 200px;" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
@@ -688,7 +688,7 @@ $animationEnd = function(array &$namespace)
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="http://coding.memory-forest.com/" class="uk-overlay" target="_blank">
-                                            <img src="images/mambers/michael-avatar.jpg" alt="avatar" class="member-avatar" />
+                                            <img src="images/mambers/michael-avatar.jpg" alt="avatar" class="member-avatar" style="min-height: 200px;" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
@@ -710,7 +710,7 @@ $animationEnd = function(array &$namespace)
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="http://llwbenson.er-webs.com/" class="uk-overlay" target="_blank">
-                                            <img src="images/mambers/benson-avatar.jpg" alt="avatar" class="member-avatar" />
+                                            <img src="images/mambers/benson-avatar.jpg" alt="avatar" class="member-avatar" style="min-height: 200px;" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
@@ -732,7 +732,7 @@ $animationEnd = function(array &$namespace)
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="https://www.facebook.com/profile.php?id=100000851917870" class="uk-overlay" target="_blank">
-                                            <img src="images/mambers/omo-avatar.jpg" alt="avatar" class="member-avatar" />
+                                            <img src="images/mambers/omo-avatar.jpg" alt="avatar" class="member-avatar" style="min-height: 200px;" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
@@ -754,7 +754,7 @@ $animationEnd = function(array &$namespace)
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="https://www.facebook.com/bingsheng.chen" class="uk-overlay" target="_blank">
-                                            <img src="images/mambers/steven-avatar.jpg" alt="avatar" class="member-avatar" />
+                                            <img src="images/mambers/steven-avatar.jpg" alt="avatar" class="member-avatar" style="min-height: 200px;" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
@@ -788,7 +788,7 @@ $animationEnd = function(array &$namespace)
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
-                                            <img src="images/mambers/di-di-avatar.jpg" alt="avatar" class="member-avatar" />
+                                            <img src="images/mambers/di-di-avatar.jpg" alt="avatar" class="member-avatar" style="min-height: 200px;" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
@@ -810,7 +810,7 @@ $animationEnd = function(array &$namespace)
                                     >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
-                                            <img src="images/mambers/duo-duo-avatar.jpg" alt="avatar" class="member-avatar" />
+                                            <img src="images/mambers/duo-duo-avatar.jpg" alt="avatar" class="member-avatar" style="min-height: 200px;" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
@@ -832,7 +832,7 @@ $animationEnd = function(array &$namespace)
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
-                                            <img src="images/mambers/do-do-avatar.jpg" alt="avatar" class="member-avatar" />
+                                            <img src="images/mambers/do-do-avatar.jpg" alt="avatar" class="member-avatar" style="min-height: 200px;" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
@@ -854,7 +854,7 @@ $animationEnd = function(array &$namespace)
 								>
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
-                                            <img src="images/mambers/eye-avatar.jpg" alt="avatar" class="member-avatar" />
+                                            <img src="images/mambers/eye-avatar.jpg" alt="avatar" class="member-avatar" style="min-height: 200px;" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
@@ -876,7 +876,7 @@ $animationEnd = function(array &$namespace)
                                     >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
-                                            <img src="images/mambers/hua-hua-avatar.jpg" alt="avatar" class="member-avatar" />
+                                            <img src="images/mambers/hua-hua-avatar.jpg" alt="avatar" class="member-avatar" style="min-height: 200px;" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
@@ -900,7 +900,7 @@ $animationEnd = function(array &$namespace)
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
-                                            <img src="images/mambers/you.gif" alt="avatar" class="member-avatar" />
+                                            <img src="images/mambers/you.gif" alt="avatar" class="member-avatar" style="min-height: 200px;" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
@@ -922,7 +922,7 @@ $animationEnd = function(array &$namespace)
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
-                                            <img src="images/mambers/you.gif" alt="avatar" class="member-avatar" />
+                                            <img src="images/mambers/you.gif" alt="avatar" class="member-avatar" style="min-height: 200px;" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
@@ -944,7 +944,7 @@ $animationEnd = function(array &$namespace)
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
-                                            <img src="images/mambers/you.gif" alt="avatar" class="member-avatar" />
+                                            <img src="images/mambers/you.gif" alt="avatar" class="member-avatar" style="min-height: 200px;" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
@@ -979,7 +979,7 @@ $animationEnd = function(array &$namespace)
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
-                                            <img src="images/mambers/la-la-avatar.jpg" alt="avatar" class="member-avatar" />
+                                            <img src="images/mambers/la-la-avatar.jpg" alt="avatar" class="member-avatar" style="min-height: 200px;" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
@@ -1001,7 +1001,7 @@ $animationEnd = function(array &$namespace)
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
-                                            <img src="images/mambers/larva-avatar.jpg" alt="avatar" class="member-avatar" />
+                                            <img src="images/mambers/larva-avatar.jpg" alt="avatar" class="member-avatar" style="min-height: 200px;" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
@@ -1023,7 +1023,7 @@ $animationEnd = function(array &$namespace)
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
-                                            <img src="images/mambers/mao-mao-avatar.jpg" alt="avatar" class="member-avatar" />
+                                            <img src="images/mambers/mao-mao-avatar.jpg" alt="avatar" class="member-avatar" style="min-height: 200px;" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
@@ -1045,7 +1045,7 @@ $animationEnd = function(array &$namespace)
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
-                                            <img src="images/mambers/ha-ha-avatar.jpg" alt="avatar" class="member-avatar" />
+                                            <img src="images/mambers/ha-ha-avatar.jpg" alt="avatar" class="member-avatar" style="min-height: 200px;" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
@@ -1067,7 +1067,7 @@ $animationEnd = function(array &$namespace)
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
-                                            <img src="images/mambers/pi-pi-avatar.jpg" alt="avatar" class="member-avatar" />
+                                            <img src="images/mambers/pi-pi-avatar.jpg" alt="avatar" class="member-avatar" style="min-height: 200px;" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
@@ -1090,7 +1090,7 @@ $animationEnd = function(array &$namespace)
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
-                                            <img src="images/mambers/you.gif" alt="avatar" class="member-avatar" />
+                                            <img src="images/mambers/you.gif" alt="avatar" class="member-avatar" style="min-height: 200px;" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
@@ -1112,7 +1112,7 @@ $animationEnd = function(array &$namespace)
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
-                                            <img src="images/mambers/you.gif" alt="avatar" class="member-avatar" />
+                                            <img src="images/mambers/you.gif" alt="avatar" class="member-avatar" style="min-height: 200px;" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
@@ -1147,7 +1147,7 @@ $animationEnd = function(array &$namespace)
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
-                                            <img src="images/mambers/moritann-avatar.jpg" alt="avatar" class="member-avatar" />
+                                            <img src="images/mambers/moritann-avatar.jpg" alt="avatar" class="member-avatar" style="min-height: 200px;" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
@@ -1170,7 +1170,7 @@ $animationEnd = function(array &$namespace)
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
-                                            <img src="images/mambers/you.gif" alt="avatar" class="member-avatar" />
+                                            <img src="images/mambers/you.gif" alt="avatar" class="member-avatar" style="min-height: 200px;" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
@@ -1192,7 +1192,7 @@ $animationEnd = function(array &$namespace)
                                 >
                                     <figure class="uk-margin-bottom">
                                         <a href="#contact" class="uk-overlay" target="_blank">
-                                            <img src="images/mambers/you.gif" alt="avatar" class="member-avatar" />
+                                            <img src="images/mambers/you.gif" alt="avatar" class="member-avatar" style="min-height: 200px;" />
                                             <div class="uk-overlay-area"></div>
                                         </a>
                                     </figure>
